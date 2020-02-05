@@ -1,0 +1,54 @@
+{
+    "gpii_app_menu_about": "Относно...",
+    "gpii_app_menu_openQss": "Отвори Morphic",
+    "gpii_app_menu_keyedIn": "Вход с профил",
+    "gpii_app_menu_keyOut": "Ресетни Morphic",
+
+    "gpii_app_tray_defaultTooltip": "Morphic: В готовност",
+    "gpii_app_tray_prefSetTooltip": "Morphic: Вход с профил",
+
+    "gpii_app_qssWrapper_restartWarningNotification": "За да видите резултатът от промяната на %settingTitle, може да се наложи да рестартирате някои приложения",
+
+    "gpii_psp_widgets_switch_on": "Вкл",
+    "gpii_psp_widgets_switch_off": "Изкл",
+    "gpii_qssWidget_volume_on": "Звукът е изключен",
+    "gpii_qssWidget_volume_off": "Звукът е включен",
+
+    "gpii_psp_errorDialog_titlebarAppName": "Morphic Грешка",
+
+    "gpii_psp_aboutDialog_titlebarAppName": "Относно Morphic",
+    "gpii_psp_aboutDialog_title": "Morphic",
+    "gpii_psp_aboutDialog_update": "Провери за ъпдейти",
+    "gpii_psp_aboutDialog_userListenersText": "Средства за вписване за тази машина: %listeners",
+    "gpii_psp_aboutDialog_version": "версия %version",
+    "gpii_psp_aboutDialog_morphicHome": "Отиди на Morphic Home",
+    "gpii_psp_aboutDialog_submitSuggestions": "Изпрати предложения",
+
+    "gpii_qss_toggleButtonPresenter_caption": "[ВКЛ.]",
+    "gpii_qss_volumeButtonPresenter_caption": "(Звукът е изключен)",
+
+    "gpii_psp_qssWidget_learnMore": "Научи повече...",
+    "gpii_psp_qssWidget_helpAndMoreOptions": "Помощ & разширени опции",
+
+    "gpii_qss_saveButtonPresenter_notification": {
+        "keyedOut": "За да запазите вашите настройки трябва да си създадете Morphic акаунт. Отидете на <a href=\"%accountUrl\">%accountUrl</a>.",
+        "keyedIn": "Вашите настройки са запазени в Morphic Cloud."
+    },
+
+    "gpii_qssWidget_volumeStepper_incrementButton": "По-силно",
+    "gpii_qssWidget_volumeStepper_decrementButton": "По-тихо",
+    "gpii_qssWidget_volumeStepper_upperBoundError": "Това е най-високата настройка",
+    "gpii_qssWidget_volumeStepper_lowerBoundError": "Това е най-ниската настройка",
+
+    "gpii_qssWidget_mouse_incrementButton": "По-бързо",
+    "gpii_qssWidget_mouse_decrementButton": "По-бавно",
+    "gpii_qssWidget_mouse_upperBoundError": "Това е най-бързата скорост",
+    "gpii_qssWidget_mouse_lowerBoundError": "Това е най-бавната скорост",
+
+    "gpii_qssWidget_openUSB_noUsbInserted": "В компютъра не са включени USB устройства. Поставете USB и опитайте отново.",
+    "gpii_qssWidget_openUSB_ejectUsbDrives": "В компютъра няма активни USB устройства. Безопасно е да премахнете всяко устройство в компютъра",
+    "gpii_qssWidget_openUSB_openUsbButtonLabel": "Отвори всички USB устройства",
+    "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Премахни безопасно всички USB устройствата",
+
+    "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Re-apply my preferences"
+}
