@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - build
 
 jobs:
   build:
@@ -18,10 +20,10 @@ jobs:
         node-version: "10.x"
     - run: npm install
     - run: npm run build
-    - name: Commit file to compiledMessages branch
+    - name: Commit new build file
       uses: github-actions-x/commit@v2.3
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: compiledMessages
+        #push-branch: compiledMessages
         commit-message: "Updating compiledMessages"
         rebase: true
