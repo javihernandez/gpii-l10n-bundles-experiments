@@ -20,12 +20,15 @@ jobs:
         node-version: "10.x"
     - run: npm install
     - run: npm run build
+    - run: mv build/gpii-app-messageBundles.json .
+    - run: git checkout compiledMessages
+    - run: mv gpii-app-messageBundles.json build
     - name: Commit new build file
       uses: github-actions-x/commit@v2.3
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        #push-branch: compiledMessages
+        push-branch: compiledMessages
         commit-message: "Updating compiledMessages"
         rebase: true
         name: Javier Hernández
-        email: javi@raisingthefloor.org 
+        email: javi@raisingthefloor.org
