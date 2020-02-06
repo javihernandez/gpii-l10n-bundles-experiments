@@ -20,7 +20,7 @@ jobs:
     - run: npm run build
     - run: |
         echo "Checking ..."
-        echo ${{ github.ref }}
+        echo "GITHUB_REPO=${GITHUB_REPOSITORY}"
     - name: Update compiledMessages file
       uses: alexesprit/action-update-file@v0.2.2
       with:
