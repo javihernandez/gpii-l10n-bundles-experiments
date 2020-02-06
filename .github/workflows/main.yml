@@ -27,3 +27,5 @@ jobs:
         #push-branch: compiledMessages
         commit-message: "Updating compiledMessages"
         rebase: true
+        name: Javier Hernández
+        email: javi@raisingthefloor.org 
