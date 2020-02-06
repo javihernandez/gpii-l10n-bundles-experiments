@@ -18,8 +18,12 @@ jobs:
         node-version: "10.x"
     - run: npm install
     - run: npm run build
+    - run: |
+        echo "Checking ..."
+        echo ${{ github.ref }}
     - name: Update compiledMessages file
       uses: alexesprit/action-update-file@v0.2.2
       with:
         file-path: build/gpii-app-messageBundles.json
         branch: compiledMessages
+        github_token: ${{ secrets.GITHUB_TOKEN }}
