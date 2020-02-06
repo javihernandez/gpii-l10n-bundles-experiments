@@ -29,7 +29,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: compiledMessages
-        commit-message: Updated compiledMessages from ${GITHUB_SHORT_HASH}
+        commit-message: Updated compiledMessages from ${{ GITHUB_SHORT_HASH }}
         rebase: true
         name: Javier Hernández
         email: javi@raisingthefloor.org
