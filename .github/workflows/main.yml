@@ -18,12 +18,10 @@ jobs:
         node-version: "10.x"
     - run: npm install
     - run: npm run build
-    - run: |
-        echo "Checking ..."
-        echo "GITHUB_REPO=${GITHUB_REPOSITORY}"
-    - name: Update compiledMessages file
-      uses: alexesprit/action-update-file@v0.2.2
-      with:
-        file-path: build/gpii-app-messageBundles.json
-        branch: compiledMessages
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit file to compiledMessages branch
+        uses: github-actions-x/commit@v2.3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: compiledMessages
+          commit-message: "Updating compiledMessages"
+          rebase: true
