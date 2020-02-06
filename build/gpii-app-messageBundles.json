@@ -449,7 +449,7 @@
         "gpii_userErrors_SaveToCloudFail-details": "Check your internet connection and your Morphic account password and try again."
     },
     "es": {
-        "gpii_app_menu_about": "About...",
+        "gpii_app_menu_about": "Acerca de...",
         "gpii_app_menu_openQss": "Open Morphic",
         "gpii_app_menu_keyedIn": "User Signed In",
         "gpii_app_menu_keyOut": "Reset Morphic",
