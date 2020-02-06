@@ -14,6 +14,7 @@ jobs:
     - uses: actions/checkout@v2
     - run: |
         git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+        GITHUB_SHORT_HASH=$(git rev-parse --short "$GITHUB_SHA")
     - name: Setup Node.js 10.x
       uses: actions/setup-node@v1
       with:
@@ -28,7 +29,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: compiledMessages
-        commit-message: "Updating compiledMessages"
+        commit-message: "Updated compiledMessages from ${GITHUB_SHORT_HASH}"
         rebase: true
         name: Javier Hernández
         email: javi@raisingthefloor.org
