@@ -22,7 +22,7 @@ jobs:
     - run: npm run build
     - run: mv build/gpii-app-messageBundles.json .
     - run: git checkout compiledMessages
-    - run: mv gpii-app-messageBundles.json build
+    - run: mv gpii-app-messageBundles.json build/
     - name: Commit new build file
       uses: github-actions-x/commit@v2.3
       with:
