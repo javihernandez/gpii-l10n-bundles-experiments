@@ -23,10 +23,10 @@ jobs:
     - run: mv build/gpii-app-messageBundles.json .
     - run: git checkout compiledMessages
     - run: mv gpii-app-messageBundles.json build/
+    - name: Set GITHUB_SHORT_HASH env
+      run: echo ::set-env name=GITHUB_SHORT_HASH::$(git rev-parse --short "$GITHUB_SHA")
     - name: Commit new build file
       uses: github-actions-x/commit@v2.3
-      env:
-        GITHUB_SHORT_HASH: $(git rev-parse --short "$GITHUB_SHA")
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: compiledMessages
