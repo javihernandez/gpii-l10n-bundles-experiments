@@ -463,7 +463,7 @@
         "gpii_psp_errorDialog_titlebarAppName": "Morphic Error",
         "gpii_psp_aboutDialog_titlebarAppName": "Acerca de Morphic",
         "gpii_psp_aboutDialog_title": "Morphic",
-        "gpii_psp_aboutDialog_update": "Check for updates",
+        "gpii_psp_aboutDialog_update": "Comprobar actualizaciones",
         "gpii_psp_aboutDialog_userListenersText": "Keys that work on this machine: %listeners",
         "gpii_psp_aboutDialog_version": "version %version",
         "gpii_psp_aboutDialog_morphicHome": "Go to Morphic home",
