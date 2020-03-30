@@ -46,11 +46,23 @@ gpii.app.compileMessageBundles = function (messageDirs, resultFilePath) {
 };
 
 /**
+ * Return the list of folders where the script needs to look for language bundles
+ */
+gpii.app.listBundleDirs = function (bundlesDir) {
+    var dirList = [];
+    fluid.each(fs.readdirSync(bundlesDir, {withFileTypes: true}), function (v) {
+        if (v.isDirectory()) dirList.push(path.join(bundlesDir, v.name));
+    });
+
+    return dirList;
+};
+
+/**
  * This is the entry point to the script. Any configuration must be indicated below.
 */
 gpii.app.compileMessageBundles(
     // List of dirs to look for message bundles
-    ["./bundles"],
+    gpii.app.listBundleDirs("./bundles"),
     // The resulting bundle file path
     "./build/gpii-app-messageBundles.json"
 );
