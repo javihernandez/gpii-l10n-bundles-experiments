@@ -7,8 +7,8 @@
         "gpii_app_tray_defaultTooltip": "Morphic: В готовност",
         "gpii_app_tray_prefSetTooltip": "Morphic: Вход с профил",
         "gpii_app_qssWrapper_restartWarningNotification": "За да видите резултатът от промяната на %settingTitle, може да се наложи да рестартирате някои приложения",
-        "gpii_psp_widgets_switch_on": "Вкл",
-        "gpii_psp_widgets_switch_off": "Изкл",
+        "gpii_qssWidget_toggle_on": "On",
+        "gpii_qssWidget_toggle_off": "Off",
         "gpii_qssWidget_volume_on": "Звукът е изключен",
         "gpii_qssWidget_volume_off": "Звукът е включен",
         "gpii_psp_errorDialog_titlebarAppName": "Morphic Грешка",
@@ -21,16 +21,26 @@
         "gpii_psp_aboutDialog_submitSuggestions": "Изпрати предложения",
         "gpii_qss_toggleButtonPresenter_caption": "[ВКЛ.]",
         "gpii_qss_volumeButtonPresenter_caption": "(Звукът е изключен)",
-        "gpii_psp_qssWidget_learnMore": "Научи повече...",
-        "gpii_psp_qssWidget_helpAndMoreOptions": "Помощ & разширени опции",
+        "gpii_psp_qssMorePanel_title": "More",
+        "gpii_psp_qssMorePanel_details": "Watch this space for more Morphic buttons, as well as additional features to help you tune the computer to your specific needs and preferences",
+        "gpii_psp_qssMorePanel_link": "For more information on Morphic go to <a target=\"_blank\" href=\"%moreInfoUrl\">%moreInfoUrl</a>",
+        "gpii_psp_qssNotification_title": "Morphic Notification",
+        "gpii_psp_qssNotification_dismissButtonLabel": "OK",
         "gpii_qss_saveButtonPresenter_notification": {
             "keyedOut": "За да запазите вашите настройки трябва да си създадете Morphic акаунт. Отидете на <a href=\"%accountUrl\">%accountUrl</a>.",
             "keyedIn": "Вашите настройки са запазени в Morphic Cloud."
         },
-        "gpii_qssWidget_volumeStepper_incrementButton": "По-силно",
-        "gpii_qssWidget_volumeStepper_decrementButton": "По-тихо",
-        "gpii_qssWidget_volumeStepper_upperBoundError": "Това е най-високата настройка",
-        "gpii_qssWidget_volumeStepper_lowerBoundError": "Това е най-ниската настройка",
+        "gpii_psp_qssWidget_learnMore": "Научи повече...",
+        "gpii_psp_qssWidget_helpAndMoreOptions": "Помощ & разширени опции",
+        "gpii_psp_qssWidget_hideSideCar": "Hide",
+        "gpii_qssWidget_stepper_incrementButton": "Larger",
+        "gpii_qssWidget_stepper_decrementButton": "Smaller",
+        "gpii_qssWidget_stepper_upperBoundError": "This is the highest setting",
+        "gpii_qssWidget_stepper_lowerBoundError": "This is the lowest setting",
+        "gpii_qssWidget_volume_incrementButton": "Louder",
+        "gpii_qssWidget_volume_decrementButton": "Quieter",
+        "gpii_qssWidget_volume_upperBoundError": "This is highest setting",
+        "gpii_qssWidget_volume_lowerBoundError": "This is lowest setting",
         "gpii_qssWidget_mouse_incrementButton": "По-бързо",
         "gpii_qssWidget_mouse_decrementButton": "По-бавно",
         "gpii_qssWidget_mouse_upperBoundError": "Това е най-бързата скорост",
@@ -134,6 +144,29 @@
             "tooltip": "<p>Стартирай апликацията DocuMorph.</p>",
             "title": "Стартирай Docu Morph"
         },
+        "gpii_app_qss_settings_translate-tools": {
+            "tooltip": "<p>Tools to translate text, documents, web pages, or live speech.</p>",
+            "title": "Translate Tools",
+            "tip": "<p>Translate Tools</p>To translate <b>text, documents, web pages</b> or <b>live speech</b>, try one of the following free services or apps.<br /><br /><i>Links are for convenience. No endorsement or privacy guarantee.</i><br /><br /><b>Microsoft Word 365</b> has a Translator in its <b>Review</b> ribbon<br /><br /><b>Web based & Apps</b><br /><ul><li><a href='https://translate.google.com/' class=\"fl-focusable\">Google</a>  - <b>Web, Text, Docs</b></li><li><a href='https://www.bing.com/translator' class=\"fl-focusable\">Microsoft Bing</a>  - <b>Web, Text</b></li><li><a href='http://www.online-translator.com/' class=\"fl-focusable\">PROMT</a>  - <b>Web</b></li><li><a href='http://www.reverso.net/text_translation.aspx' class=\"fl-focusable\">Reverso</a>  - <b>Web</b></li><li><a href='https://www.translatelive.com/' class=\"fl-focusable\">Translate Live</a>  - <b>Live Speech</b></li><li><a href='https://www.microsoft.com/en-us/translator/' class=\"fl-focusable\">Microsoft Translator APP</a>  - <b>Web, Text, Live Speech, StreetSigns</b></li></ul><br /><b>NOTE:</b> There are also plug-ins and built-in translation features for different browsers."
+        },
+        "gpii_app_qss_settings_common-mouse": {
+            "tooltip": "<p>Change Windows Mouse setting.</p><p>Works in all applications.</p>",
+            "title": "Adjust Mouse",
+            "tip": "<p>Adjust Mouse</p>",
+            "sideCarWithSettings": "<p>We have provided some of the most commonly used Windows Mouse settings here.</p><p>Microsoft also provides other mouse settings. The following links will  take you directly to the key additional Mouse settings in the Windows Setting screens.</p><ul><li><a href='ms-settings:mousetouchpad'>Mouse button and scroll modes</a></li><li><a href='ms-settings:easeofaccess-mouse'>Mouse Keys</a></li><li><a href='ms-settings:devices-touchpad'>Touchpad sensitivity</a> (if your computer has a touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Cursor and pointer size, color, and touch feedback</a></li></ul>"
+        },
+        "gpii_app_qss_settings_windows-swapMouseButtons": {
+            "title": "Swap mouse buttons"
+        },
+        "gpii_app_qss_settings_windows-easierDoubleClick": {
+            "title": "Easier Double Click"
+        },
+        "gpii_app_qss_settings_windows-largerMousePointer": {
+            "title": "Larger Mouse Pointer"
+        },
+        "gpii_app_qss_settings_windows-mouseSpeed": {
+            "title": "Mouse speed"
+        },
         "gpii_app_qss_settings_url-google-drive": {
             "tooltip": "<p>Отваря Google Drive във браузъра.</p>",
             "title": "Моят Google Drive"
@@ -153,7 +186,37 @@
         "gpii_app_qss_settings_url-customize-qss": {
             "tooltip": "<p>Отваря уеб страница където да промените бутоните в лентата.</p>",
             "title": "Промени бутоните"
-        }
+        },
+        "gpii_userErrors_EADDRINUSE-title": "Morphic can't start",
+        "gpii_userErrors_EADDRINUSE-subhead": "There is another application listening on the same port",
+        "gpii_userErrors_EADDRINUSE-details": "Stop the other running application and try again. If the problem is still present, <a href='https://morphic.world/contact/'>contact Morphic Technical Support</a>.",
+        "gpii_userErrors_KeyInFail-title": "Oops.",
+        "gpii_userErrors_KeyInFail-subhead": "Something went wrong.",
+        "gpii_userErrors_KeyInFail-details": "Try restarting your computer. If this problem continues, <a href='https://morphic.world/contact/'>contact Morphic Technical Support</a>.",
+        "gpii_userErrors_NoConnection-title": "No Internet connection",
+        "gpii_userErrors_NoConnection-subhead": "Morphic cannot see the cloud to get your settings.",
+        "gpii_userErrors_NoConnection-details": "Check your internet connection and try again.",
+        "gpii_userErrors_WriteSettingFail-title": "A setting was not changed",
+        "gpii_userErrors_WriteSettingFail-subhead": "Morphic couldn't change one of the settings you asked for.",
+        "gpii_userErrors_WriteSettingFail-details": "You can try again or make the change manually. If the problems continues, try restarting the program or your computer.The setting that Morphic could not change is: %settingName in %appName",
+        "gpii_userErrors_ReadSettingFail-title": "Couldn't read setting",
+        "gpii_userErrors_ReadSettingFail-subhead": "Morphic couldn't read one of the settings that you asked for.",
+        "gpii_userErrors_ReadSettingFail-details": "If the problem continues, try restarting the program or your computer.The setting that Morphic could not read is: %settingName of application %appName",
+        "gpii_userErrors_StartApplicationFail-title": "Morphic can't start %appName",
+        "gpii_userErrors_StartApplicationFail-subhead": "To turn on the setting you requested, Morphic needs to start %appName.",
+        "gpii_userErrors_StartApplicationFail-details": "You can start the program yourself.  If this problem continues, try restarting your computer.",
+        "gpii_userErrors_StopApplicationFail-title": "Morphic can't start %appName",
+        "gpii_userErrors_StopApplicationFail-subhead": "Morphic needs to stop %appName to turn off a setting.",
+        "gpii_userErrors_StopApplicationFail-details": "You can stop the program yourself. If this problem continues, try restarting your computer.",
+        "gpii_userErrors_SaveToCloudFail-title": "Your settings were not saved",
+        "gpii_userErrors_SaveToCloudFail-subhead": "Your settings have not been saved to your online account and are not available to use on other computers.",
+        "gpii_userErrors_SaveToCloudFail-details": "Check your internet connection and your Morphic account password and try again.",
+        "gpii_psp_widgets_switch_on": "Вкл",
+        "gpii_psp_widgets_switch_off": "Изкл",
+        "gpii_qssWidget_volumeStepper_incrementButton": "По-силно",
+        "gpii_qssWidget_volumeStepper_decrementButton": "По-тихо",
+        "gpii_qssWidget_volumeStepper_upperBoundError": "Това е най-високата настройка",
+        "gpii_qssWidget_volumeStepper_lowerBoundError": "Това е най-ниската настройка"
     },
     "en_US": {
         "gpii_app_menu_about": "About...",
@@ -589,6 +652,30 @@
         "gpii_app_qss_settings_url-customize-qss": {
             "tooltip": "<p>Open the web tool to customize quickstrip's buttons.</p>",
             "title": "Customize Quickstrip"
-        }
+        },
+        "gpii_userErrors_EADDRINUSE-title": "Morphic can't start",
+        "gpii_userErrors_EADDRINUSE-subhead": "There is another application listening on the same port",
+        "gpii_userErrors_EADDRINUSE-details": "Stop the other running application and try again. If the problem is still present, <a href='https://morphic.world/contact/'>contact Morphic Technical Support</a>.",
+        "gpii_userErrors_KeyInFail-title": "Oops.",
+        "gpii_userErrors_KeyInFail-subhead": "Something went wrong.",
+        "gpii_userErrors_KeyInFail-details": "Try restarting your computer. If this problem continues, <a href='https://morphic.world/contact/'>contact Morphic Technical Support</a>.",
+        "gpii_userErrors_NoConnection-title": "No Internet connection",
+        "gpii_userErrors_NoConnection-subhead": "Morphic cannot see the cloud to get your settings.",
+        "gpii_userErrors_NoConnection-details": "Check your internet connection and try again.",
+        "gpii_userErrors_WriteSettingFail-title": "A setting was not changed",
+        "gpii_userErrors_WriteSettingFail-subhead": "Morphic couldn't change one of the settings you asked for.",
+        "gpii_userErrors_WriteSettingFail-details": "You can try again or make the change manually. If the problems continues, try restarting the program or your computer.The setting that Morphic could not change is: %settingName in %appName",
+        "gpii_userErrors_ReadSettingFail-title": "Couldn't read setting",
+        "gpii_userErrors_ReadSettingFail-subhead": "Morphic couldn't read one of the settings that you asked for.",
+        "gpii_userErrors_ReadSettingFail-details": "If the problem continues, try restarting the program or your computer.The setting that Morphic could not read is: %settingName of application %appName",
+        "gpii_userErrors_StartApplicationFail-title": "Morphic can't start %appName",
+        "gpii_userErrors_StartApplicationFail-subhead": "To turn on the setting you requested, Morphic needs to start %appName.",
+        "gpii_userErrors_StartApplicationFail-details": "You can start the program yourself.  If this problem continues, try restarting your computer.",
+        "gpii_userErrors_StopApplicationFail-title": "Morphic can't start %appName",
+        "gpii_userErrors_StopApplicationFail-subhead": "Morphic needs to stop %appName to turn off a setting.",
+        "gpii_userErrors_StopApplicationFail-details": "You can stop the program yourself. If this problem continues, try restarting your computer.",
+        "gpii_userErrors_SaveToCloudFail-title": "Your settings were not saved",
+        "gpii_userErrors_SaveToCloudFail-subhead": "Your settings have not been saved to your online account and are not available to use on other computers.",
+        "gpii_userErrors_SaveToCloudFail-details": "Check your internet connection and your Morphic account password and try again."
     }
 }
