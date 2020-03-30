@@ -176,7 +176,8 @@ gpii.app.messageBundlesCompiler.loadMessageBundles = function (bundlesDirs, pars
             parser = parsers[fileType];
         return {
             messages: parser.parse(fs.readFileSync(filePath)),
-            filename: path.basename(filePath)
+            filename: path.basename(filePath),
+            locale: path.dirname(filePath).split("/")[1]
         };
     });
 };
@@ -205,7 +206,7 @@ gpii.app.messageBundlesCompiler.mergeMessageBundles = function (loadedBundles) {
     var messageBundles = {};
 
     loadedBundles.forEach(function (bundle) {
-        var locale = gpii.app.messageBundlesCompiler.extractLocaleFromFilename(bundle.filename),
+        var locale = bundle.locale,
             prevMessages = messageBundles[locale] || {};
 
         // merge with the new file's messages
