@@ -36,7 +36,7 @@ gpii.app.compileMessageBundles = function (messageDirs, resultFilePath) {
     shell.mkdir("-p", path.dirname(resultFilePath));
 
     var compileMessageBundles = gpii.app.messageBundlesCompiler.compileMessageBundles;
-    var compiledMessageBundles = compileMessageBundles(messageDirs, "en", {"json": JSON, "json5": require("json5")});
+    var compiledMessageBundles = compileMessageBundles(messageDirs, "en_US", {"json": JSON, "json5": require("json5")});
 
     fs.writeFileSync(resultFilePath, JSON.stringify(compiledMessageBundles, null, 4));
     fluid.log("Message bundle successfully written to ", resultFilePath);
