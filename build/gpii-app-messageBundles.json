@@ -218,6 +218,236 @@
         "gpii_qssWidget_volumeStepper_upperBoundError": "Това е най-високата настройка",
         "gpii_qssWidget_volumeStepper_lowerBoundError": "Това е най-ниската настройка"
     },
+    "da": {
+        "gpii_app_menu_about": "Om...",
+        "gpii_app_menu_openQss": "Åben Morphic",
+        "gpii_app_menu_keyedIn": "Bruger logget ind",
+        "gpii_app_menu_keyOut": "Reset Morphic",
+        "gpii_app_tray_defaultTooltip": "Morphic: Klar",
+        "gpii_app_tray_prefSetTooltip": "Morphic: Bruger logget ind",
+        "gpii_app_qssWrapper_restartWarningNotification": "For at se %s navneændringer på opsætninger, skal du muligvis genstarte nogle applikationer.",
+        "gpii_qssWidget_toggle_on": "Tænd",
+        "gpii_qssWidget_toggle_off": "Sluk",
+        "gpii_qssWidget_volume_on": "Lyd slået fra",
+        "gpii_qssWidget_volume_off": "Lyd slået til",
+        "gpii_psp_errorDialog_titlebarAppName": "Morphic Fejl",
+        "gpii_psp_aboutDialog_titlebarAppName": "Om Morphic",
+        "gpii_psp_aboutDialog_title": "Morphic",
+        "gpii_psp_aboutDialog_update": "Check for opdateringer",
+        "gpii_psp_aboutDialog_userListenersText": "Taster, der fungerer på denne maskine: %li",
+        "gpii_psp_aboutDialog_version": "version",
+        "gpii_psp_aboutDialog_morphicHome": "Gå til Morphic startside",
+        "gpii_psp_aboutDialog_submitSuggestions": "Send forslag",
+        "gpii_qss_toggleButtonPresenter_caption": "[nu TÆNDT]",
+        "gpii_qss_volumeButtonPresenter_caption": "(Lyd afbrudt)",
+        "gpii_psp_qssMorePanel_title": "Mere",
+        "gpii_psp_qssMorePanel_details": "Se her for flere Morphic knapper samt yderligere funktioner, der hjælper dig med at indstille computeren til dine specifikke behov og præferencer",
+        "gpii_psp_qssMorePanel_link": "Mere information om Morphic, klik <a target=\"_blank\" href=\"%moreInfoUrl\">%mereInformationLink</a>",
+        "gpii_psp_qssNotification_title": "Morphic meddelelse",
+        "gpii_psp_qssNotification_dismissButtonLabel": "OK",
+        "gpii_qss_saveButtonPresenter_notification": {
+            "keyedOut": "%meddelelse genkendt",
+            "keyedIn": "Dine indstillinger er gemt i Morphic-skyen"
+        },
+        "gpii_psp_qssWidget_learnMore": "Hjælp / Lær mere",
+        "gpii_psp_qssWidget_helpAndMoreOptions": "Hjælp og flere muligheder",
+        "gpii_psp_qssWidget_hideSideCar": "Skjul",
+        "gpii_qssWidget_stepper_incrementButton": "Større",
+        "gpii_qssWidget_stepper_decrementButton": "Mindre",
+        "gpii_qssWidget_stepper_upperBoundError": "Dette er den højeste indstilling",
+        "gpii_qssWidget_stepper_lowerBoundError": "Dette er den laveste indstilling",
+        "gpii_qssWidget_volume_incrementButton": "Højere",
+        "gpii_qssWidget_volume_decrementButton": "Lavere",
+        "gpii_qssWidget_volume_upperBoundError": "Dette er den højeste indstilling",
+        "gpii_qssWidget_volume_lowerBoundError": "Dette er den laveste indstilling",
+        "gpii_qssWidget_mouse_incrementButton": "Hurtigere",
+        "gpii_qssWidget_mouse_decrementButton": "Langsommere",
+        "gpii_qssWidget_mouse_upperBoundError": "Dette er den højeste hastighed",
+        "gpii_qssWidget_mouse_lowerBoundError": "Dette er den laveste hastighed",
+        "gpii_qssWidget_openUSB_noUsbInserted": "Der er ikke tilsluttet USB-drev til computeren. Indsæt din USB, og prøv igen.",
+        "gpii_qssWidget_openUSB_ejectUsbDrives": "Der er ingen USB-drev aktive på computeren. Det er sikkert at fjerne ethvert drev i computeren",
+        "gpii_qssWidget_openUSB_openUsbButtonLabel": "Åbn alle USB-drev",
+        "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Fjern alle USB-drev sikkert",
+        "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Anvend mine foretrukne indstillinger igen",
+        "gpii_app_qss_settings_close": {
+            "tooltip": "<p>Luk Morphic QuickStrip</p><p>Du kan genåbne den ved at klikke på Morphic ikonet (herunder) <img height=12 src='../../icons/TaskTrayIcon_outline.svg'></img></p>",
+            "title": "×"
+        },
+        "gpii_app_qss_settings_undo": {
+            "tooltip": "<p>Fortryd de sidste ændringer du foretog i Morphic QuickStrip.</p>",
+            "title": "Fortryd"
+        },
+        "gpii_app_qss_settings_resetAll": {
+            "tooltip": "<p>Resetter til standard indstillinger for denne computer</p><p>(og logger dig ud af Morphic men ændre ikke dine gemte i indstillinger)</p>",
+            "title": "Reset til standard"
+        },
+        "gpii_app_qss_settings_save": {
+            "tooltip": "<p>Gemmer dine fortrukne indstillinger så du kan bruge dem på andre computere der har  Morphic installeret.</p>",
+            "title": "Gem"
+        },
+        "gpii_app_qss_settings_mySavedSettings": {
+            "tooltip": "<p>Mine gemte indstillinger</p>",
+            "title": "Mine gemte indstillinger",
+            "tip": "<p>Mine gemte indstillinger</p>",
+            "footerTip": "<ul><li>For at anvende dine gemte indstillinger, indset en Morphic USB-stik.</li><li>For at gen-anvende dem, fjern og indsæt Morphic USB-stik.</li></ul>"
+        },
+        "gpii_app_qss_settings_more": {
+            "tooltip": "<p>Flere muligheder for ændring af opsætninger på denne computer.</p>",
+            "title": "MERE...\n\n(& HJÆLP)"
+        },
+        "gpii_app_qss_settings_common-selfVoicing-enabled": {
+            "tooltip": "<p>Slå “Vælg oplæsning” udvidelsen i Chrome browser til/fra.</p>",
+            "title": "Chrome oplæser",
+            "tip": "<p>Tænder og justerer oplæsning i Chrome</p>",
+            "extendedTip": "<p>For at bruge op-/højtlæsning</p><ol><li>Åben en webside i Chrome <img height=12 src='../../icons/chrome.svg'></li><li>Vælg/Marker tekst</li><li>Klik på afspil knappen der popper op</li></ol>",
+            "sideCar": "<p> I denne menu kan du aktivere funktionen Læs højt, der er installeret i <b> Chrome-browseren </b>. Når Læs højt er slået til: </p> <ol> <li> Marker / fremhæv tekst i Chrome </li> <li> Klik på knappen Afspil, der dukker op </li> </ol> <p> BEMÆRK: når du tænder første gang for at læse højt, skal du muligvis opdatere åbne sider først. </p> <p> <b> Microsoft Edge </b> -browseren har også en læse højt-tilstand. Det er altid tændt. Sådan bruges det: </p> <ol> <li> Åbn Edge-browseren </li> <li> Højreklik på en webside og vælg \"Læs højt\" i menuen </li> </ol> <p> En \"Læs højt\" værktøjslinje vises i Edge, hvor du kan styre læsningen. </p> <p> Microsoft Word og OneNote har også læst højt funktioner. Du kan på<a href='https://morphic.zendesk.com/hc/en-us/articles/360030418393-Chrome-Read-Aloud'> lære mere om højtlæsning </a> på den morfiske vidensbase. </p>"
+        },
+        "gpii_app_qss_settings_common-highContrastTheme": {
+            "tooltip": "<p> Skift kontrasten mellem teksten og baggrundsfarven, så teksten er lettere at læse. </p> <p> Kontrastændringer påvirker Windows, Edge, Chrome og nogle andre applikationer. </p>",
+            "title": "Høj / Lav kontrast",
+            "tip": "<p> Ændrer kontrast og farver </p> <p> Fungerer i Chrome, Edge og apps, der understøtter Windows-kontrasttemaer. (Det kan være nødvendigt at genstarte nogle apps.) </p>",
+            "enum": [
+                "Almindelig kontrast",
+                "Sort på hvid",
+                "Hvid på sort",
+                "Gul på sort",
+                "Sort på gul",
+                "Grå på hvid",
+                "Sort på brun"
+            ],
+            "sideCar": "<p> I denne menu kan du skifte til lys tilstand, mørk tilstand eller en række forskellige valg med høj og lav kontrast. </p> <p> Ikke alle applikationer understøtter alle indstillinger. Du skal muligvis også genstarte nogle applikationer for at se en effekt. </p>",
+            "sideCarWithSettings": "<p>I denne menu kan du skifte til lys tilstand, mørk tilstand eller en række forskellige valg med høj og lav kontrast.</p><p>Ikke alle applikationer understøtter alle indstillinger. Du skal muligvis også genstarte nogle applikationer for at se en effekt.</p><p>Her er links, der fører dig direkte til det fulde sæt kontrastværktøjer i Windows-indstillinger:</p><ul><li><a href='ms-settings:colors'>Windows Color Settings</a> - skift farvetilstand og accentfarver</li><li><a href='ms-settings:easeofaccess-highcontrast'>Indstillinger, Øget tilgængelighed, Brug stor kontrast</a> - tilpas farver til høj kontrasttilstand</li></ul><p>BEMÆRK: Kun indstillingerne for høj eller lav kontrast til venstre fungerer i Chrome.</p><p>BEMÆRK: I øjeblikket gemmer Morphic kun kontrastindstillingerne på listen til venstre.</p>"
+        },
+        "gpii_app_qss_settings_common-DPIScale": {
+            "tooltip": "<p>Skift hele skærmen for at gøre alt større / mindre.</p> <p>Fungerer for alt.</p>",
+            "title": "Skærm Zoom",
+            "tip": "<p>Zoomer alt på skærmen</p> <p>Zoommængden op og ned er forskellig fra computer til computer.</p>",
+            "footerTip": "",
+            "sideCarWithSettings": "<p>Skærmzoom bruger funktionen Windows skærmskala til at lade dig gøre ting større eller mindre på skærmen, så de passer til dine præferencer.</p><p>Windows giver også andre måder at ændre skærmstørrelsen eller zoome dele af grænsefladen på. Brug disse links til at gå til de relevante steder i Windows-indstillinger:</p><ul><li><a href='ms-settings:display'>>Skærmindstillinger</a></li><li><a href='ms-settings:display-advanced'>Avancerede skærmindstillinger</a>(kun tilgængelig på enheder, der understøtter avancerede indstillinger)</li><li><a href='ms-settings:easeofaccess-display'> Nem adgang til visningsindstillinger</a></li></ul>"
+        },
+        "gpii_app_qss_settings_appTextZoom": {
+            "tooltip": "<p>Ændre tekst størrelse.</p><p>Fungerer med mange applikationer inklusiv Edge, Chrome, Firefox, Microsoft Office m.fl.</p>",
+            "title": "Zoom det forreste vindue",
+            "tip": "<p>Zoom det forreste vindue</p><p>Bemærk: Ikke alle vinduer kan zoomes.</p>",
+            "footerTip": "<a href=\"https://morphic.world/basics/learn-more-about-quickstrip#textzoom\">Vil du have en hurtigere måde at zoome et vindue på?</a>",
+            "sideCar": "<p>“Forreste vindue Zoom” er knapper, der gør det nemt at zoome ind i mange Windows-applikationer.</p><p>Men der er endnu hurtigere måder at gøre dette på, der slet ikke kræver, at du åbner QuickStrip. Igen fungerer de ikke i alle applikationer, men de fungerer i mange.</p><ul><li>Du kan holde CTRL nede og bruge hjulet på musen til at zoome ind/ud</li><li>\nHold CTRL-tasten nede, og brug + og - tasterne på tastaturet til at zoome ind/ud</li></ul>"
+        },
+        "gpii_app_qss_settings_common-language": {
+            "tooltip": "<p>Skift sprog i menuer og bånd.</p><p>Fungerer i Windows, Edge, Office og andre programmer med sprogpakker installeret.</p>",
+            "title": "Menusprog",
+            "tip": "<p>Skift menusprog/-bånd</p><p>Fungere i Windows og andre apps der understøtter Windows sprog indstillinger.</p><ul><li>Det oversætter ikke dokumenter etc.</li><li>Du skal måske genstarte nogle apps for at se ændringer.</li></ul>",
+            "sideCar": "<p>Sprogvalgene på listen er de Microsoft-sprog, der er godkendt af din it-afdeling til dette websted.</p><p> For at tilføje et andet sprog til listen - spørg din it-afdeling.</p><p>(På personlige og hjemmemaskiner - vil et SETUP-værktøj være tilgængeligt til at vælge sprog til din computer)</p>"
+        },
+        "gpii_app_qss_settings_usb-open": {
+            "tooltip": "<p>Åbn og fjern sikkert alle USB-flashdrev, der er tilsluttet computeren.</p>",
+            "title": "Åbn & fjern USB",
+            "tip": "<p>Dit USB-drev</p><p>Indsæt et USB-drev og åben det med knappen herunder.</p>",
+            "footerTip": "<p>Når du er færdig, skal du forhindre tab af data ved at skubbe USB-drev ud sikkert.</p><ol><li>Luk alle dokumenter lukket fra USB-drevet og</li><li>brug knappen herunder for at fjerne USB-drev sikkert</li></ol>",
+            "sideCar": "<p>I denne menu kan du åbne alle USB-drev, der er tilsluttet din computer med et enkelt klik.</p><p>Når du er færdig med dine USB-drev, skal du bruge denne menu igen til at skubbe dine drev ud sikkert. Dette hjælper med at beskytte dine data.</p>"
+        },
+        "gpii_app_qss_settings_screenCapture": {
+            "tooltip": "<p>Skærmbillede.</p><p>Tager billeder af hele eller en del af skærmen.</p>",
+            "title": "Skærmbillede (Skærmdump)",
+            "tip": "<p>Skærmbillede</p><p>For at tage billede af hele eller dele af skærmen</p><ul><li>Klik på en af ​​knapperne nedenfor</li><li>Klik og træk derefter musen for at vælge den del af skærmen, du ønsker.</li><li>Slip museknappen. FÆRDIG.</li></ul><p><b>Den øverste knap</b> lader dig \"KOPIERE\" dele af eller hele skærmen så du kan \"INDSÆTTE\" ind i mailtekster, dokumenter, etc. (using Ctrl-V).</p><p><b>Den 2. knap</b>tager et billede som et kamera. Du finder billedfilen på din skriveordsside.</p>",
+            "enum": [
+                "Tag en KOPI og INDSÆT ind i dokument, e-mail osv.",
+                "Tag et BILLEDE, og gem på skrivebordet"
+            ],
+            "sideCar": "<p>Dette skærmoptagelsesværktøj bruger open source-softwaren ShareX til at indfange indstillinger med høj præcision.</p><p>ShareX har mange andre tilgængelige funktioner. Åbn ShareX ved at trykke på Windows-tasten og skrive<b>ShareX</b>.</p> <p> Microsoft har også et indbygget skærmoptagelsesværktøj kaldet \"Snipping Tool\", som du kan kalde op ved at trykke<b>Winowsknappen + Shift + S</b>.</p>"
+        },
+        "gpii_app_qss_settings_cloud-folder-open": {
+            "tooltip": "<p>Hurtigmappen giver adgang til ofte brugte dokumenter, websider og andre ressourcer.</p>",
+            "title": "Åben Hurtigmappen"
+        },
+        "gpii_app_qss_settings_officeSimplification": {
+            "tooltip": "<p> Microsoft Word-forenkling. </p> <p> Giver enklere menuer til Microsoft Word </p>",
+            "title": "MS Word Simplify",
+            "tip": "<p> Forenkling af Microsoft Word </p> <p> Morphic kan tilføje enklere bånd (menulinjerne med ikoner øverst i Word) for at gøre det lettere for folk, der ikke bruger alle indstillingerne. </p> <ul> <li> Vælg en eller begge for at føje dem til Word </li> </ul>",
+            "enum": [
+                "Grundlæggende (Morphic)",
+                "Væsentlige (Morphic)"
+            ],
+            "sideCar": "<p>Du kan også oprette dine egne brugerdefinerede Microsoft Word-bånd på din egen computer. </p> <p> For at oprette et tilpasset bånd skal du højreklikke på højre kant af båndlinjen og vælge \"Tilpas bånd\". Yderligere instruktioner er tilgængelige på <a href='https://support.office.com/en-us/article/customize-the-ribbon-in-office-00f24ca7-6021-48d3-9514-a31a460ecb31'> Microsoft Office supportwebsted </a>. </p> <p> BEMÆRK: Brugerdefinerede bånd gemmes i øjeblikket ikke af Morphic. </p>"
+        },
+        "gpii_app_qss_settings_common-volume": {
+            "tooltip": "<p> Justerer Windows-lydstyrken og slår til / fra. </p>",
+            "title": "Lydstyrke og lydløs",
+            "tip": "<p>Lydstyrke og lydløs</p>",
+            "switchTitle": "Slå al lyd fra",
+            "sideCar": "<p> En hurtigere og nemmere måde at ændre lydstyrken på er at klikke på højttalerikonet på systembakken (nær uret i bunden af ​​skærmen).</p><img src='../../assets/volumeMute.png' alt='volumeMute' class='full'>"
+        },
+        "gpii_app_qss_settings_launch-documorph": {
+            "tooltip": "<p> Konverterer dokumenter til mere tilgængelige formularer. </p>",
+            "title": "Docu- Morph"
+        },
+        "gpii_app_qss_settings_translate-tools": {
+            "tooltip": "<p> Værktøjer til at oversætte tekst, dokumenter, websider eller live tale. </p>",
+            "title": "Oversættelses værktøjer",
+            "tip": "<p>Oversætningsværktøjer</p>Hvis du vil oversætte  <b>tekst, dokumenter, web sider</b> eller <b>tale</b>, kan du prøve en af ​​følgende gratis tjenester eller apps.<br /><br /><i>Links er for nemheds skyld. Ingen påtegning eller privatlivsgaranti.</i><br /><br /><b>Microsoft Word 365</b> har en oversætter i sit <b>Gennemgangs</b> bånd<br /><br /><b>Web baseret & Apps</b><br /><ul><li><a href='https://translate.google.com/' class=\"fl-focusable\">Google</a> - <b>Web, tekst, dokumenter</b></li><li><a href='https://www.bing.com/translator' class=\"fl-focusable\">Microsoft Bing</a> - <b>Web, tekst</b></li><li><a href='http://www.online-translator.com/' class=\"fl-focusable\">PROMT</a> - <b>Web</b></li><li><a href='http://www.reverso.net/text_translation.aspx' class=\"fl-focusable\">Reverso</a> - <b>Web</b></li><li><a href='https://www.translatelive.com/' class=\"fl-focusable\">Oversæt Live</a> - <b>Live tale</b></li><li><a href='https://www.microsoft.com/en-us/translator/' class=\"fl-focusable\">Microsoft Translator APP</a> - <b>Web, tekst, live tale, StreetSigns</b></li></ul><br /><b>BEMÆRK:</b> Der er også plug-ins og indbyggede oversættelsesfunktioner til forskellige browsere."
+        },
+        "gpii_app_qss_settings_common-mouse": {
+            "tooltip": "<p> Skift indstilling af Windows-mus. </p> <p> Fungerer i alle applikationer. </p>",
+            "title": "Juster Mus",
+            "tip": "<p>Juster Mus</p>",
+            "sideCarWithSettings": "<p> Vi har angivet nogle af de mest anvendte Windows-mus-indstillinger her. </p> <p> Microsoft leverer også andre musindstillinger. Følgende links fører dig direkte til de ekstra vigtige musindstillinger på Windows-indstillingsskærmene. </p><ul><li><a href='ms-settings:mousetouchpad'>Museknap og rullefunktioner </a></li><li><a href='ms-settings:easeofaccess-mouse'> Musetaster </a></li><li><a href='ms-settings:devices-touchpad'>Touchpad-følsomhed </a> (hvis din computer har en touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Markør- og markørstørrelse, farve og feedback på </a></li></ul>"
+        },
+        "gpii_app_qss_settings_windows-swapMouseButtons": {
+            "title": "Byt museknapper"
+        },
+        "gpii_app_qss_settings_windows-easierDoubleClick": {
+            "title": "Lettere dobbeltklik"
+        },
+        "gpii_app_qss_settings_windows-largerMousePointer": {
+            "title": "Større musemarkør"
+        },
+        "gpii_app_qss_settings_windows-mouseSpeed": {
+            "title": "Musens hastighed"
+        },
+        "gpii_app_qss_settings_url-google-drive": {
+            "tooltip": "<p> Åbner Google Drev i browseren. </p>",
+            "title": "Mit Google drev"
+        },
+        "gpii_app_qss_settings_url-one-drive": {
+            "tooltip": "<p> Åbner One Drive i browseren. </p>",
+            "title": "Mit One Drive"
+        },
+        "gpii_app_qss_settings_url-dropbox": {
+            "tooltip": "<p> Åbner Dropbox i browseren. </p>",
+            "title": "Min Dropbox"
+        },
+        "gpii_app_qss_settings_snipping-tool": {
+            "tooltip": "<p> Start Windows Snipping Værktøj. </p>",
+            "title": "Skærmskæring"
+        },
+        "gpii_app_qss_settings_url-customize-qss": {
+            "tooltip": "<p> Åbn webværktøjet for at tilpasse quickstrips knapper. </p>",
+            "title": "Tilpas Quickstrip"
+        },
+        "gpii_userErrors_EADDRINUSE-title": "Morphic kan ikke starte",
+        "gpii_userErrors_EADDRINUSE-subhead": "Der er en anden applikation, der lytter på den samme port",
+        "gpii_userErrors_EADDRINUSE-details": "Stop det andet kørende program, og prøv igen. Hvis problemet stadig er til stede, <a href='https://morphic.world/contact/'> kontakt Morphic Technical Support </a>.",
+        "gpii_userErrors_KeyInFail-title": "Ups!",
+        "gpii_userErrors_KeyInFail-subhead": "Noget gik galt",
+        "gpii_userErrors_KeyInFail-details": "Prøv at genstarte din computer. Hvis dette problem fortsætter, <a href='https://morphic.world/contact/'> kontakt Morphic Technical Support </a>.",
+        "gpii_userErrors_NoConnection-title": "Ingen Internet forbindelse",
+        "gpii_userErrors_NoConnection-subhead": "Morphic kan ikke se skyen og derfor ikke få dine indstillinger.",
+        "gpii_userErrors_NoConnection-details": "Check din Internet forbindelse igen",
+        "gpii_userErrors_WriteSettingFail-title": "En indstilling blev ikke ændret",
+        "gpii_userErrors_WriteSettingFail-subhead": "Morphic kunne ikke ændre en af ​​de indstillinger, du bad om.",
+        "gpii_userErrors_WriteSettingFail-details": "Du kan prøve igen eller foretage ændringen manuelt. Hvis problemerne fortsætter, skal du prøve at genstarte programmet eller din computer. Den indstilling, som Morphic ikke kunne ændre, er: %settingName i%appName",
+        "gpii_userErrors_ReadSettingFail-title": "Kunne ikke læse indstilling",
+        "gpii_userErrors_ReadSettingFail-subhead": "Morphic kunne ikke læse en af ​​de indstillinger, som du bad om.",
+        "gpii_userErrors_ReadSettingFail-details": "Hvis problemet fortsætter, skal du prøve at genstarte programmet eller din computer. Den indstilling, som Morphic ikke kunne læse, er: %stingName of application %appName",
+        "gpii_userErrors_StartApplicationFail-title": "Morphic kan ikke starte %appName",
+        "gpii_userErrors_StartApplicationFail-subhead": "For at aktivere den ønskede indstilling skal Morphic starte %appName.",
+        "gpii_userErrors_StartApplicationFail-details": "Du kan starte programmet selv. Hvis dette problem fortsætter, skal du prøve at genstarte din computer",
+        "gpii_userErrors_StopApplicationFail-title": "Morphic kan ikke starte %appName",
+        "gpii_userErrors_StopApplicationFail-subhead": "Morphic skal stoppe %appName for at deaktivere en indstilling.",
+        "gpii_userErrors_StopApplicationFail-details": "Du kan stoppe programmet selv. Hvis dette problem fortsætter, skal du prøve at genstarte din computer.",
+        "gpii_userErrors_SaveToCloudFail-title": "Dine indstillinger blev ikke gemt",
+        "gpii_userErrors_SaveToCloudFail-subhead": "Dine indstillinger er ikke gemt på din online-konto og er ikke tilgængelige til brug på andre computere.",
+        "gpii_userErrors_SaveToCloudFail-details": "Tjek din internetforbindelse og din adgangskode til din morfiske konto, og prøv igen."
+    },
     "en_US": {
         "gpii_app_menu_about": "About...",
         "gpii_app_menu_openQss": "Open Morphic",
@@ -677,5 +907,235 @@
         "gpii_userErrors_SaveToCloudFail-title": "Your settings were not saved",
         "gpii_userErrors_SaveToCloudFail-subhead": "Your settings have not been saved to your online account and are not available to use on other computers.",
         "gpii_userErrors_SaveToCloudFail-details": "Check your internet connection and your Morphic account password and try again."
+    },
+    "pt_PT": {
+        "gpii_app_menu_about": "Sobre...",
+        "gpii_app_menu_openQss": "Abrir Morphic",
+        "gpii_app_menu_keyedIn": "Usuário com sessão iniciada",
+        "gpii_app_menu_keyOut": "Reiniciar Morphic",
+        "gpii_app_tray_defaultTooltip": "Morphic: Preparado",
+        "gpii_app_tray_prefSetTooltip": "Morphic: Usuário com sessão iniciada",
+        "gpii_app_qssWrapper_restartWarningNotification": "To see the %settingTitle change, you may need to restart some applications.",
+        "gpii_qssWidget_toggle_on": "Ligado",
+        "gpii_qssWidget_toggle_off": "Desligado",
+        "gpii_qssWidget_volume_on": "Áudio desligado",
+        "gpii_qssWidget_volume_off": "Áudio ligado",
+        "gpii_psp_errorDialog_titlebarAppName": "Erro Morphic",
+        "gpii_psp_aboutDialog_titlebarAppName": "Sobre o Morphic",
+        "gpii_psp_aboutDialog_title": "Morphic",
+        "gpii_psp_aboutDialog_update": "Verificar se há atualizações",
+        "gpii_psp_aboutDialog_userListenersText": "Teclas que funcionam neste dispositivo: %listeners",
+        "gpii_psp_aboutDialog_version": "versão %version",
+        "gpii_psp_aboutDialog_morphicHome": "Ir para página inicial Morphic",
+        "gpii_psp_aboutDialog_submitSuggestions": "Submeter sugestões",
+        "gpii_qss_toggleButtonPresenter_caption": "[agora ligado]",
+        "gpii_qss_volumeButtonPresenter_caption": "(Áudio desligado)",
+        "gpii_psp_qssMorePanel_title": "Mais",
+        "gpii_psp_qssMorePanel_details": "Veja esta página para mais Morphic ícones, assim como funcionalidades adicionais que o ajudam a ajustar o computador às suas necessidades e preferências específicas.",
+        "gpii_psp_qssMorePanel_link": "Para mais informação sobre Morphic vá a <a target=\"_blank\" href=\"%moreInfoUrl\">%moreInfoUrl</a>",
+        "gpii_psp_qssNotification_title": "Notificação Morphic",
+        "gpii_psp_qssNotification_dismissButtonLabel": "OK",
+        "gpii_qss_saveButtonPresenter_notification": {
+            "keyedOut": "%messageKeyedOut",
+            "keyedIn": "As suas configurações foram guardadas na Cloud da Morphic"
+        },
+        "gpii_psp_qssWidget_learnMore": "Ajuda / Aprenda mais ",
+        "gpii_psp_qssWidget_helpAndMoreOptions": "Ajuda & mais opções",
+        "gpii_psp_qssWidget_hideSideCar": "Esconder",
+        "gpii_qssWidget_stepper_incrementButton": "Maior",
+        "gpii_qssWidget_stepper_decrementButton": "Menor",
+        "gpii_qssWidget_stepper_upperBoundError": "Esta é a configuração mais alta",
+        "gpii_qssWidget_stepper_lowerBoundError": "Esta é a configuração mais baixa",
+        "gpii_qssWidget_volume_incrementButton": "Mais alto",
+        "gpii_qssWidget_volume_decrementButton": "Mais baixo",
+        "gpii_qssWidget_volume_upperBoundError": "Esta é a configuração mais alta",
+        "gpii_qssWidget_volume_lowerBoundError": "Esta é a configuração mais baixa",
+        "gpii_qssWidget_mouse_incrementButton": "Mais rápido",
+        "gpii_qssWidget_mouse_decrementButton": "Mais devagar",
+        "gpii_qssWidget_mouse_upperBoundError": "Esta é a velocidade mais rápida",
+        "gpii_qssWidget_mouse_lowerBoundError": "Esta é a velocidade mais baixa",
+        "gpii_qssWidget_openUSB_noUsbInserted": "Não existem pendrives conectadas ao computador. Insira a sua pendrive e tente outra vez. ",
+        "gpii_qssWidget_openUSB_ejectUsbDrives": "Não existem pendrives ativas neste computador. É seguro remover quaquer Pen drive do computador",
+        "gpii_qssWidget_openUSB_openUsbButtonLabel": "Abrir todas as Pen drives",
+        "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Retire todas as Pen drives com segurança",
+        "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Recolocar as minhas preferências",
+        "gpii_app_qss_settings_close": {
+            "tooltip": "<p>Fechar Morphic QuickStrip</p><p> Poderá reabri-lo usando o ícone do Morphic (em baixo) <img height=12 src='../../icons/TaskTrayIcon_outline.svg'></img></p>",
+            "title": "x"
+        },
+        "gpii_app_qss_settings_undo": {
+            "tooltip": "<p>Desfazer a última mudança que fez no Morphic QuickStrip.</p>",
+            "title": "Desfazer"
+        },
+        "gpii_app_qss_settings_resetAll": {
+            "tooltip": "<p>Redefinir as configurações padrão para este computador</p><p>(e faz com que saia do Morphic mas não modifica as suas configurações guardadas)</p>",
+            "title": "Redefinir para padrão"
+        },
+        "gpii_app_qss_settings_save": {
+            "tooltip": "<p>Salve as suas preferências para poder usá-las mais tarde em computadores que tenham o Morphic instalado.</p>",
+            "title": "Salvar"
+        },
+        "gpii_app_qss_settings_mySavedSettings": {
+            "tooltip": "<p>As minhas configurações guardadas</p>",
+            "title": "As minhas configurações guardadas",
+            "tip": "<p>As minhas configurações guardadas</p>",
+            "footerTip": "<ul><li>Para usar as suas configurações guardadas, insira a Morphic USB key.</li><li> Para reusá-los, remova e reinsira a Morphic key.</li></ul>"
+        },
+        "gpii_app_qss_settings_more": {
+            "tooltip": "<p>Mais opções para mudar as configurações neste computador.</p>",
+            "title": "MAIS...\n\n(&AJUDA)"
+        },
+        "gpii_app_qss_settings_common-selfVoicing-enabled": {
+            "tooltip": "<p>Ligar “Selecionar Read Aloud” extensão no Chrome browser ligar/desligar.</p>",
+            "title": "Chrome Ler em Voz Alta",
+            "tip": "<p>Liga e ajusta o modo de ler em voz alta no Chrome</p>",
+            "extendedTip": "<p>Para usar o ler voz alta</p><ol><li>Abra uma página no Chrome <img height=12 src='../../icons/chrome.svg'></li><li>Selecionar / sublinhar texto </li><li>Click no botão Play que aparece</li></ol>",
+            "sideCar": "<p>Neste menu, pode ligar a função de ler em voz alta instalada no <b>Browser do Chrome </b>. Quando a voz alta está ligada:</p><ol><li>Selecionar / sublinhar texto no Chrome</li><li>Carregar no ícone Play que aparece</li></ol><p>NOTA: quando ligar a voz alta, tem de recarregar as páginas abertas.</p><p><b>Microsoft Edge</b> o browser também tem o modo de ler em voz alta. Está sempre ligado. Para usá-lo:</p><ol><li>Abra o Edge browser</li><li>Clique com o botão direito na página e escolha \"Ler em voz alta\" no menu</li></ol><p>A barra de ferramentas de ler em voz alta aparecerá no Edge onde poderá controlar a leitura.</p><p>Microsoft Word e OneNote também tem modo de ler em voz alta. Pode <a href='https://morphic.zendesk.com/hc/en-us/articles/360030418393-Chrome-Read-Aloud'> saber mais sobre ler em voz alta</a> na base de conhecimentos do Morphic.</p>"
+        },
+        "gpii_app_qss_settings_common-highContrastTheme": {
+            "tooltip": "<p>Mude o contraste entre o texto e a cor do fundo, para o texto ser mais fácil de ler.</p><p>Mudanças no contraste irão aparecer no Windows, Edge, Chrome, e algumas aplicações.</p>",
+            "title": "Alto / Baixo Contraste",
+            "tip": "<p>Muda o contraste e cores</p><p>Funciona no Chrome, Edge, e  aplicações que funcionem com os temas de contraste do Windows. (Talvez tenha de reiniciar algumas aplicações)</p>",
+            "enum": [
+                "Contraste regular",
+                "Preto no branco",
+                "Branco no preto",
+                "Amarelo no preto",
+                "Preto no amarelo",
+                "Cinzento no branco",
+                "Preto no castanho"
+            ],
+            "sideCar": "<p>Neste menu pode mudar para modo claro, modo escuro, ou tem várias escolhas de contraste alto e baixo.</p><p>Nem todas as aplicações funcionam com todas as configurações. Reinicie algumas aplicações para ver as mudanças.</p>",
+            "sideCarWithSettings": "<p>Neste menu pode mudar para modo claro, modo escuro ou, várias escolhas de contraste alto e baixo .</p><p>Nem todas as aplicações funcionam com todas as configurações. Reinicie algumas aplicações para ver as mudanças.</p><p>Aqui estão os links para ver todas as ferramentas de contraste nas configurações do Windows:</p><ul><li><a href='ms-settings:colors'> Configurações de cor do Windows </a> - mudar o modo de cor e cores de destaque</li><li><a href='ms-settings:easeofaccess-highcontrast'>Configurações de contraste alto do Windows</a> - Personalizar as cores para o modo de contraste alto</li></ul><p>NOTA: Só as configurações de contraste alto e baixo na esquerda funcionam no Chrome.</p><p>NOTA: Atualmente, o Morphic só guarda as configurações de contraste na lista da esquerda.</p>"
+        },
+        "gpii_app_qss_settings_common-DPIScale": {
+            "tooltip": "<p>Mudar toda a tela para diminuir ou aumentar tudo.</p><p>Funciona para tudo.</p>",
+            "title": "Ampliar Ecrã",
+            "tip": "<p>Regula o tamanho de tudo na tela</p><p>O máximo e mínimo permitido para regular a tela difere de computador para computador.</p>",
+            "footerTip": "",
+            "sideCarWithSettings": "<p>A regulação da dimensão da tela usa a ferramenta do Windows Screen Scale  para aumentar ou diminuir a tela segundo as suas preferências.</p><p>O Windows também permite outras maneiras de mudar o tamanho da tela e regular a dimensão de certas partes do interface. Através destes links poderá ir para o local correto nas configurações do Windows:</p><ul><li><a href='ms-settings:display'>Configurações da tela</a></li><li><a href='ms-settings:display-advanced'>Configurações de tela avançadas</a> (Só está disponível em dispositivos que funcionem com configurações avançadas)</li><li><a href='ms-settings:easeofaccess-display'> Configurações de tela de fácil acesso </a></li></ul>"
+        },
+        "gpii_app_qss_settings_appTextZoom": {
+            "tooltip": "<p>Muda o tamanho do texto.</p><p>Funciona em várias aplicações incluindo o Edge, Chrome, Firefox, Microsoft Office, e mais.</p>",
+            "title": "Regular dimensão da janela de cima",
+            "tip": "<p>Regular dimensão da janela de cima</p><p> Nota: nem todas as janelas ampliam.</p>",
+            "footerTip": "<a href=\"https://morphic.world/basics/learn-more-about-quickstrip#textzoom\">Quer uma maneira mais rápida para ampliar a janela?</a>",
+            "sideCar": "<p>Os ícones “Regular dimensão da janela de cima” tem como função facilitar a regulação de dimensão do texto nas aplicações Windows.</p><p>Mas há maneiras mais rápidas de fazer isto sem que tenha de abrir o QuickStrip. Relembrando, que eles não funcionam em todas as aplicações mas funcionam em muitas.</p><ul><li>Mantenha pressionada a tecla do CTRL  e use a rodinha do mouse para aumentar ou diminuir a dimensão</li><li>Mantenha pressionada a tecla de CTRL e use as teclas + ou - no teclado para aumentar ou dimuir a dimensão</li></ul>"
+        },
+        "gpii_app_qss_settings_common-language": {
+            "tooltip": "<p>Mudar a linguagem dos menus e das faixas .</p><p>Funciona no Windows, Edge, Office e outros programas com pacotes de linguagem instalados.</p>",
+            "title": "Linguagem dos menus",
+            "tip": "<p>Mudar a linguagem dos menus/faixas</p><p>Funciona no windows, e outras aplicações que funcionem com configurações de linguaguem do Windows</p><ul><li>Não traduz documentos etc.</li><li>Talvez precise de reiniciar algumas aplicações para ver a mudança.</li></ul>",
+            "sideCar": "<p>As opções de línguas na lista são línguas da Microsoft  que foram aprovadas pelo seu departamento de Informática para este website.</p><p>Para adicionar outra linguagem na lista - fale com o seu departamento de informática.</p><p>(Em aparelhos pessoais e em casa - a ferramenta SETUP estará disponível para selecionar linguas para o teu computador)</p>"
+        },
+        "gpii_app_qss_settings_usb-open": {
+            "tooltip": "<p>Abrir e ejetar em segurança todas as Pen drives ligadas a este computador.</p>",
+            "title": "Abrir e Ejetar Pen drive",
+            "tip": "<p>A sua Pen drive</p><p>Inserir a Pen drive e abri-la com o ícone em baixo.</p>",
+            "footerTip": "<p>Quando tiver terminado, previna a perda de dados ao ejetar as Pen drives em segurança.</p><ol><li>Feche todos os documentos abertos da Pen drive e</li><li>Depois use o ícone em baixo para ejetar as Pen Drives em segurança</li></ol>",
+            "sideCar": "<p>Neste menu pode abrir todas as Pen drives injetadas no seu computador só com um click.</p><p>Quando terminar, use este menu para ejetar as sua Pen drives em segurança. Isto permitirá manter os seus dados em segurança.</p>"
+        },
+        "gpii_app_qss_settings_screenCapture": {
+            "tooltip": "<p>Captura de ecrã.</p><p>Tirar fotos de todo ou parte do ecrã.</p>",
+            "title": "Captura de ecrã",
+            "tip": "<p>Captura de tela</p><p>Para capturar toda ou parte da tela</p><ul><li>Clique em qualquer um dos ícones em baixo</li><li>Depois clique e arraste o cursor para selecionar a parte da tela que pretende.</li><li>Solte o  cursor. FEITO.</li></ul><p><b>O ícone de cima</b> permite-lhe “COPIAR” uma parte ou toda a tela para poder \"COLAR\" em qualquer e-mail, documento, etc. (usando o Ctrl-V).</p><p><b>O segundo ícone</b>  cria uma \"Fotografia\" como uma câmera. O ficheiro está no Ambiente de Trabalho.</p>",
+            "enum": [
+                "COPIE para COLAR num documento, e-mail etc.",
+                "Tire uma FOTOGRAFIA e guarde no seu ambiente de trabalho"
+            ],
+            "sideCar": "<p>Esta ferramenta de captura de ecrã usa o software ShareX  de código aberto para capturar as configurações com grande precisão.</p><p> A ShareX  tem mais  funcionalidades disponíveis.  Para abrir o ShareX, clique na tecla \"Windows\" e  digite<b>ShareX</b>.</p><p>A Microsoft também tem uma ferramenta de captura de ecrã própria denominada  Snipping Tool que pode usar, clicando <b>WinKey+Shift+S</b>.</p>"
+        },
+        "gpii_app_qss_settings_cloud-folder-open": {
+            "tooltip": "<p>A pasta rápida contém documentos, páginas da internet e outros recursos que são requisitados regularmente.</p>",
+            "title": "Abrir pasta rápida"
+        },
+        "gpii_app_qss_settings_officeSimplification": {
+            "tooltip": "<p>Simplificação do Microsoft Word.</p><p>Dar menus mais simples para o Microsoft Word</p>",
+            "title": "Simplificação do MS Word",
+            "tip": "<p>Simplificação do Microsoft Word</p><p>A Morphic pode adicionar faixas mais simples (as barras do menu tem ícones no topo do Word) para facilitar a pessoas que não usam todas as opções.</p><ul><li>Choose one or both to add them to Word</li></ul>",
+            "enum": [
+                "Básico (Morphic)",
+                "Essenciais (Morphic)"
+            ],
+            "sideCar": "<p>Pode também criar barras  personalizadas no Microsoft Word do seu computador.</p><p> Para criar uma barra personalizada clique com o botão direito no rato e selecione \"Barras Personalizadas\". Pode encontrar mais instruções aqui <a href='https://support.office.com/en-us/article/customize-the-ribbon-in-office-00f24ca7-6021-48d3-9514-a31a460ecb31'> Site de ajuda do Microsoft Office</a>.</p><p>NOTA: Atualmente, as barras personalizadas não são guardadas pelo Morphic.</p>"
+        },
+        "gpii_app_qss_settings_common-volume": {
+            "tooltip": "<p>Ajusta o volume do Windows e permite ligar/Desligar o volume.</p>",
+            "title": "Volume & Desligar",
+            "tip": "<p>Volume e Desligar</p>",
+            "switchTitle": "Desligar o áudio",
+            "sideCar": "<p>Uma maneira mais rápida e fácil de mudar o volume é clicar no ícone da coluna na barra de ferramentas (perto das horas, no canto inferior da tela).</p><img src='../../assets/volumeMute.png' alt='volumeMute' class='full'>"
+        },
+        "gpii_app_qss_settings_launch-documorph": {
+            "tooltip": "<p>Converte documentos para formatos mais acessíveis.</p>",
+            "title": "Docu- Morph"
+        },
+        "gpii_app_qss_settings_translate-tools": {
+            "tooltip": "<p>Ferramentas para traduzir textos, documentos, páginas na internet, ou discursos ao vivo.</p>",
+            "title": "Ferramentas de tradução",
+            "tip": "<p>Translate Tools</p>To translate <b>text, documents, web pages</b> or <b>live speech</b>, try one of the following free services or apps.<br /><br /><i>Links are for convenience. No endorsement or privacy guarantee.</i><br /><br /><b>Microsoft Word 365</b> has a Translator in its <b>Review</b> ribbon<br /><br /><b>Web based & Apps</b><br /><ul><li><a href='https://translate.google.com/' class=\"fl-focusable\">Google</a>  - <b>Web, Text, Docs</b></li><li><a href='https://www.bing.com/translator' class=\"fl-focusable\">Microsoft Bing</a>  - <b>Web, Text</b></li><li><a href='http://www.online-translator.com/' class=\"fl-focusable\">PROMT</a>  - <b>Web</b></li><li><a href='http://www.reverso.net/text_translation.aspx' class=\"fl-focusable\">Reverso</a>  - <b>Web</b></li><li><a href='https://www.translatelive.com/' class=\"fl-focusable\">Translate Live</a>  - <b>Live Speech</b></li><li><a href='https://www.microsoft.com/en-us/translator/' class=\"fl-focusable\">Microsoft Translator APP</a>  - <b>Web, Text, Live Speech, StreetSigns</b></li></ul><br /><b>NOTE:</b> There are also plug-ins and built-in translation features for different browsers."
+        },
+        "gpii_app_qss_settings_common-mouse": {
+            "tooltip": "<p>Mudar as configurações do rato do Windows.</p><p>Funciona em todas as aplicações.</p>",
+            "title": "Ajustar rato",
+            "tip": "<p>Ajustar rato</p>",
+            "sideCarWithSettings": "<p>We have provided some of the most commonly used Windows Mouse settings here.</p><p>Microsoft also provides other mouse settings. The following links will  take you directly to the key additional Mouse settings in the Windows Setting screens.</p><ul><li><a href='ms-settings:mousetouchpad'>Mouse button and scroll modes</a></li><li><a href='ms-settings:easeofaccess-mouse'>Mouse Keys</a></li><li><a href='ms-settings:devices-touchpad'>Touchpad sensitivity</a> (if your computer has a touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Cursor and pointer size, color, and touch feedback</a></li></ul>"
+        },
+        "gpii_app_qss_settings_windows-swapMouseButtons": {
+            "title": "Trocar botões do rato"
+        },
+        "gpii_app_qss_settings_windows-easierDoubleClick": {
+            "title": "Clique duplo facilitado"
+        },
+        "gpii_app_qss_settings_windows-largerMousePointer": {
+            "title": "Cursor do rato maior"
+        },
+        "gpii_app_qss_settings_windows-mouseSpeed": {
+            "title": "Velocidade do rato"
+        },
+        "gpii_app_qss_settings_url-google-drive": {
+            "tooltip": "<p>Abrir o Google Drive no browser.</p>",
+            "title": "A minha Google Drive"
+        },
+        "gpii_app_qss_settings_url-one-drive": {
+            "tooltip": "<p>Abre a One Drive no browser.</p>",
+            "title": "A minha One Drive"
+        },
+        "gpii_app_qss_settings_url-dropbox": {
+            "tooltip": "<p>Abre a Dropbox no browser.</p>",
+            "title": "A minha Dropbox"
+        },
+        "gpii_app_qss_settings_snipping-tool": {
+            "tooltip": "<p>Iniciar a ferramenta de captura de tela do Windows.</p>",
+            "title": "Recorte de tela"
+        },
+        "gpii_app_qss_settings_url-customize-qss": {
+            "tooltip": "<p>Abrir a ferramenta da internet para personalizar os botões do quickstrip.</p>",
+            "title": "Personalizar Quickstrip"
+        },
+        "gpii_userErrors_EADDRINUSE-title": "O Morphic não consegue iniciar",
+        "gpii_userErrors_EADDRINUSE-subhead": "There is another application listening on the same port",
+        "gpii_userErrors_EADDRINUSE-details": "Feche as outras aplicações aberta e tente outra vez. Se o problema persistir, <a href='https://morphic.world/contact/'>contacte o apoio técnico do Morphic </a>.",
+        "gpii_userErrors_KeyInFail-title": "Oops.",
+        "gpii_userErrors_KeyInFail-subhead": "Algo correu mal.",
+        "gpii_userErrors_KeyInFail-details": "tente reiniciar o seu computador. Se o problema persistir, <a href='https://morphic.world/contact/'>contacte o apoio técnico do Morphic</a>.",
+        "gpii_userErrors_NoConnection-title": "Sem ligação à Internet",
+        "gpii_userErrors_NoConnection-subhead": "O Morphic não consegue aceder à nuvem para obter as suas configurações.",
+        "gpii_userErrors_NoConnection-details": "Verifique a sua ligação à internet e tente outra vez.",
+        "gpii_userErrors_WriteSettingFail-title": "Uma configuração não foi mudada",
+        "gpii_userErrors_WriteSettingFail-subhead": "O Morphic não conseguiu mudar umas das configurações que pediu.",
+        "gpii_userErrors_WriteSettingFail-details": "Pode tentar outra vez e fazer as mudanças manualmente. Se o problema persistir, tente reiniciar o programa ou o seu computador. A configuração que o Morphic não conseguiu mudar foi: %settingName in %appName",
+        "gpii_userErrors_ReadSettingFail-title": "Não conseguiu ler a configuração",
+        "gpii_userErrors_ReadSettingFail-subhead": "Morphic couldn't read one of the settings that you asked for.",
+        "gpii_userErrors_ReadSettingFail-details": "Se o problema persistir, tente reiniciar o programa ou computador A configuração que o Morphic não consegue ler é: %settingName of application %appName",
+        "gpii_userErrors_StartApplicationFail-title": "O Morphic não consegue iniciar %appName",
+        "gpii_userErrors_StartApplicationFail-subhead": "Para ativar a configuração que pediu, o Morphic precisa de iniciar %appName.",
+        "gpii_userErrors_StartApplicationFail-details": "Pode iniciar o programa sozinho. Se o problema persistir, tente reiniciar o seu computador.",
+        "gpii_userErrors_StopApplicationFail-title": "O Morphic não consegue iniciar  %appName",
+        "gpii_userErrors_StopApplicationFail-subhead": "Morphic necessita de fechar %appName para desativar a configuração.",
+        "gpii_userErrors_StopApplicationFail-details": "Pode fechar o programa sozinho. Se o problema persistir, tente reiniciar o seu computador.",
+        "gpii_userErrors_SaveToCloudFail-title": "As suas configurações não foram guardadas.",
+        "gpii_userErrors_SaveToCloudFail-subhead": "As suas configurações não foram guardadas na sua conta online e não estão disponíveis para usar noutros computadores.",
+        "gpii_userErrors_SaveToCloudFail-details": "Verifique a sua ligação à internet e a sua password da sua conta Morphic e tente outra vez."
     }
 }
