@@ -21,9 +21,6 @@
         "gpii_psp_aboutDialog_submitSuggestions": "Изпрати предложения",
         "gpii_qss_toggleButtonPresenter_caption": "[ВКЛ.]",
         "gpii_qss_volumeButtonPresenter_caption": "(Звукът е изключен)",
-        "gpii_psp_qssMorePanel_title": "More",
-        "gpii_psp_qssMorePanel_details": "Watch this space for more Morphic buttons, as well as additional features to help you tune the computer to your specific needs and preferences",
-        "gpii_psp_qssMorePanel_link": "For more information on Morphic go to <a target=\"_blank\" href=\"%moreInfoUrl\">%moreInfoUrl</a>",
         "gpii_psp_qssNotification_title": "Morphic Notification",
         "gpii_psp_qssNotification_dismissButtonLabel": "OK",
         "gpii_qss_saveButtonPresenter_notification": {
@@ -32,7 +29,7 @@
         },
         "gpii_psp_qssWidget_learnMore": "Научи повече...",
         "gpii_psp_qssWidget_helpAndMoreOptions": "Помощ & разширени опции",
-        "gpii_psp_qssWidget_hideSideCar": "Hide",
+        "gpii_psp_qssWidget_hideSidecar": "Hide",
         "gpii_qssWidget_stepper_incrementButton": "Larger",
         "gpii_qssWidget_stepper_decrementButton": "Smaller",
         "gpii_qssWidget_stepper_upperBoundError": "This is the highest setting",
@@ -50,6 +47,10 @@
         "gpii_qssWidget_openUSB_openUsbButtonLabel": "Отвори всички USB устройства",
         "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Премахни безопасно всички USB устройствата",
         "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Re-apply my preferences",
+        "gpii_qss_list_infoBlock": "<p>Tell me more about</p><ul><li><a class='fl-focusable' href='#' tabindex='1'>Morphic and what it is</a></li><li><a class='fl-focusable' href='#' tabindex='2'>How to create or edit my own preferences</a></li><li><a class='fl-focusable' href='#' tabindex='3'>How to make a new key</a></li><li><a class='fl-focusable' href='#' tabindex='4'>How to use this in home</a></li><li><a class='fl-focusable' href='#' tabindex='5'>How to convert my documents</a></li><li><a class='fl-focusable' href='#' tabindex='6'>Other frequently asked questions (FAQ)</a></li><li><a class='fl-focusable' href='#' tabindex='7'>Other help topics</a></li></ul><br><ul><li><a class='fl-focusable' href='#' tabindex='8'>Help me with ____________________________</a></li></ul>",
+        "gpii_qss_list_buttonBlock1": "<h3>Things to try</h3><button class='fl-qss-more-button fl-focusable' tabindex='9'>Button 1</button><button class='fl-qss-more-button fl-focusable' tabindex='10'>Button 2</button><button class='fl-qss-more-button fl-focusable' tabindex='11'>Button 3</button><button class='fl-qss-more-button fl-focusable' tabindex='12'>Button 4</button>",
+        "gpii_qss_list_buttonBlock2": "<h3>Managing Settings</h3><button class='fl-qss-more-button fl-focusable' tabindex='13'>Button 5</button><button class='fl-qss-more-button fl-focusable' tabindex='14'>Button 6</button><button class='fl-qss-more-button fl-focusable' tabindex='15'>Button 7</button><button class='fl-qss-more-button fl-focusable' tabindex='16'>Button 8</button>",
+        "gpii_qss_list_skipButtonLabel": "Skip to main buttons",
         "gpii_app_qss_settings_close": {
             "tooltip": "<p>Close Morphic QuickStrip</p><p>You can reopen it using the Morphic Icon (below) <img height=12 src='../../icons/TaskTrayIcon_outline.svg'></img></p>",
             "title": "×"
@@ -153,7 +154,7 @@
             "tooltip": "<p>Change Windows Mouse setting.</p><p>Works in all applications.</p>",
             "title": "Adjust Mouse",
             "tip": "<p>Adjust Mouse</p>",
-            "sideCarWithSettings": "<p>We have provided some of the most commonly used Windows Mouse settings here.</p><p>Microsoft also provides other mouse settings. The following links will  take you directly to the key additional Mouse settings in the Windows Setting screens.</p><ul><li><a href='ms-settings:mousetouchpad'>Mouse button and scroll modes</a></li><li><a href='ms-settings:easeofaccess-mouse'>Mouse Keys</a></li><li><a href='ms-settings:devices-touchpad'>Touchpad sensitivity</a> (if your computer has a touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Cursor and pointer size, color, and touch feedback</a></li></ul>"
+            "sidecarWithSettings": "<p>We have provided some of the most commonly used Windows Mouse settings here.</p><p>Microsoft also provides other mouse settings. The following links will  take you directly to the key additional Mouse settings in the Windows Setting screens.</p><ul><li><a href='ms-settings:mousetouchpad'>Mouse button and scroll modes</a></li><li><a href='ms-settings:easeofaccess-mouse'>Mouse Keys</a></li><li><a href='ms-settings:devices-touchpad'>Touchpad sensitivity</a> (if your computer has a touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Cursor and pointer size, color, and touch feedback</a></li></ul>"
         },
         "gpii_app_qss_settings_windows-swapMouseButtons": {
             "title": "Swap mouse buttons"
@@ -186,6 +187,18 @@
         "gpii_app_qss_settings_url-customize-qss": {
             "tooltip": "<p>Отваря уеб страница където да промените бутоните в лентата.</p>",
             "title": "Промени бутоните"
+        },
+        "gpii_app_qss_settings_common-colorVision": {
+            "tooltip": "<p>Променя цветовете на екрана с цел да се отличават по-лесно.</p>",
+            "title": "Филтри Цветове",
+            "tip": "<p>Филтри Цветове</p><p>Променя нюансите на дадени цветове, за да станат по-ясни за хора с различните типове далтонизъм.</p>",
+            "footerTip": "<div class='colorWheelTip'><p>Избери опция, която прави цветовете по-отчетливи.</p><center><img height=64 src='../../assets/color-vision-wheel.png' /></center></div>",
+            "enum": [
+                "Стандартни цветове",
+                "Червено-Зелено (Слабо зелено)",
+                "Червено-Зелено (Слабо червено)",
+                "Синьо-Жълто (Тританомалия)"
+            ]
         },
         "gpii_userErrors_EADDRINUSE-title": "Morphic can't start",
         "gpii_userErrors_EADDRINUSE-subhead": "There is another application listening on the same port",
@@ -240,9 +253,6 @@
         "gpii_psp_aboutDialog_submitSuggestions": "Send forslag",
         "gpii_qss_toggleButtonPresenter_caption": "[nu TÆNDT]",
         "gpii_qss_volumeButtonPresenter_caption": "(Lyd afbrudt)",
-        "gpii_psp_qssMorePanel_title": "Mere",
-        "gpii_psp_qssMorePanel_details": "Se her for flere Morphic knapper samt yderligere funktioner, der hjælper dig med at indstille computeren til dine specifikke behov og præferencer",
-        "gpii_psp_qssMorePanel_link": "Mere information om Morphic, klik <a target=\"_blank\" href=\"%moreInfoUrl\">%mereInformationLink</a>",
         "gpii_psp_qssNotification_title": "Morphic meddelelse",
         "gpii_psp_qssNotification_dismissButtonLabel": "OK",
         "gpii_qss_saveButtonPresenter_notification": {
@@ -251,7 +261,7 @@
         },
         "gpii_psp_qssWidget_learnMore": "Hjælp / Lær mere",
         "gpii_psp_qssWidget_helpAndMoreOptions": "Hjælp og flere muligheder",
-        "gpii_psp_qssWidget_hideSideCar": "Skjul",
+        "gpii_psp_qssWidget_hideSidecar": "Hide",
         "gpii_qssWidget_stepper_incrementButton": "Større",
         "gpii_qssWidget_stepper_decrementButton": "Mindre",
         "gpii_qssWidget_stepper_upperBoundError": "Dette er den højeste indstilling",
@@ -269,6 +279,10 @@
         "gpii_qssWidget_openUSB_openUsbButtonLabel": "Åbn alle USB-drev",
         "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Fjern alle USB-drev sikkert",
         "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Anvend mine foretrukne indstillinger igen",
+        "gpii_qss_list_infoBlock": "<p>Tell me more about</p><ul><li><a class='fl-focusable' href='#' tabindex='1'>Morphic and what it is</a></li><li><a class='fl-focusable' href='#' tabindex='2'>How to create or edit my own preferences</a></li><li><a class='fl-focusable' href='#' tabindex='3'>How to make a new key</a></li><li><a class='fl-focusable' href='#' tabindex='4'>How to use this in home</a></li><li><a class='fl-focusable' href='#' tabindex='5'>How to convert my documents</a></li><li><a class='fl-focusable' href='#' tabindex='6'>Other frequently asked questions (FAQ)</a></li><li><a class='fl-focusable' href='#' tabindex='7'>Other help topics</a></li></ul><br><ul><li><a class='fl-focusable' href='#' tabindex='8'>Help me with ____________________________</a></li></ul>",
+        "gpii_qss_list_buttonBlock1": "<h3>Things to try</h3><button class='fl-qss-more-button fl-focusable' tabindex='9'>Button 1</button><button class='fl-qss-more-button fl-focusable' tabindex='10'>Button 2</button><button class='fl-qss-more-button fl-focusable' tabindex='11'>Button 3</button><button class='fl-qss-more-button fl-focusable' tabindex='12'>Button 4</button>",
+        "gpii_qss_list_buttonBlock2": "<h3>Managing Settings</h3><button class='fl-qss-more-button fl-focusable' tabindex='13'>Button 5</button><button class='fl-qss-more-button fl-focusable' tabindex='14'>Button 6</button><button class='fl-qss-more-button fl-focusable' tabindex='15'>Button 7</button><button class='fl-qss-more-button fl-focusable' tabindex='16'>Button 8</button>",
+        "gpii_qss_list_skipButtonLabel": "Skip to main buttons",
         "gpii_app_qss_settings_close": {
             "tooltip": "<p>Luk Morphic QuickStrip</p><p>Du kan genåbne den ved at klikke på Morphic ikonet (herunder) <img height=12 src='../../icons/TaskTrayIcon_outline.svg'></img></p>",
             "title": "×"
@@ -423,6 +437,19 @@
             "tooltip": "<p> Åbn webværktøjet for at tilpasse quickstrips knapper. </p>",
             "title": "Tilpas Quickstrip"
         },
+        "gpii_app_qss_settings_common-colorVision": {
+            "tooltip": "<p>Change the colors displayed on the screen to make things easier to view or distinguish.</p>",
+            "title": "Color Vision",
+            "tip": "<p>Color Vision Filters</p><p>Shifts colors to help those with some form of color blindness distinguish colors.</p>",
+            "footerTip": "<div class='colorWheelTip'><p>Pick an option that makes the nine colors below more distinct.</p><center><img height=64 src='../../assets/color-vision-wheel.png' /></center></div>",
+            "enum": [
+                "Standard colors",
+                "Red-Green (Green weak)",
+                "Red-Green (Red weak)",
+                "Blue-Yellow (Tritanomaly)"
+            ],
+            "sidecarWithSettings": "<p>In addition to the Windows color vision options presented in the panel to the left, there are also several grayscale options provided in Windows setting.</p><p>Here is the link to take you directly to the full set of Color Vision Options in Windows Settings:</p><ul><li><a href='ms-settings:easeofaccess-colorfilter'>Color Vision Settings</a></li></ul>"
+        },
         "gpii_userErrors_EADDRINUSE-title": "Morphic kan ikke starte",
         "gpii_userErrors_EADDRINUSE-subhead": "Der er en anden applikation, der lytter på den samme port",
         "gpii_userErrors_EADDRINUSE-details": "Stop det andet kørende program, og prøv igen. Hvis problemet stadig er til stede, <a href='https://morphic.world/contact/'> kontakt Morphic Technical Support </a>.",
@@ -446,7 +473,11 @@
         "gpii_userErrors_StopApplicationFail-details": "Du kan stoppe programmet selv. Hvis dette problem fortsætter, skal du prøve at genstarte din computer.",
         "gpii_userErrors_SaveToCloudFail-title": "Dine indstillinger blev ikke gemt",
         "gpii_userErrors_SaveToCloudFail-subhead": "Dine indstillinger er ikke gemt på din online-konto og er ikke tilgængelige til brug på andre computere.",
-        "gpii_userErrors_SaveToCloudFail-details": "Tjek din internetforbindelse og din adgangskode til din morfiske konto, og prøv igen."
+        "gpii_userErrors_SaveToCloudFail-details": "Tjek din internetforbindelse og din adgangskode til din morfiske konto, og prøv igen.",
+        "gpii_psp_qssMorePanel_title": "Mere",
+        "gpii_psp_qssMorePanel_details": "Se her for flere Morphic knapper samt yderligere funktioner, der hjælper dig med at indstille computeren til dine specifikke behov og præferencer",
+        "gpii_psp_qssMorePanel_link": "Mere information om Morphic, klik <a target=\"_blank\" href=\"%moreInfoUrl\">%mereInformationLink</a>",
+        "gpii_psp_qssWidget_hideSideCar": "Skjul"
     },
     "en_US": {
         "gpii_app_menu_about": "About...",
@@ -470,9 +501,6 @@
         "gpii_psp_aboutDialog_submitSuggestions": "Submit suggestions",
         "gpii_qss_toggleButtonPresenter_caption": "[now ON]",
         "gpii_qss_volumeButtonPresenter_caption": "(Audio Muted)",
-        "gpii_psp_qssMorePanel_title": "More",
-        "gpii_psp_qssMorePanel_details": "Watch this space for more Morphic buttons, as well as additional features to help you tune the computer to your specific needs and preferences",
-        "gpii_psp_qssMorePanel_link": "For more information on Morphic go to <a target=\"_blank\" href=\"%moreInfoUrl\">%moreInfoUrl</a>",
         "gpii_psp_qssNotification_title": "Morphic Notification",
         "gpii_psp_qssNotification_dismissButtonLabel": "OK",
         "gpii_qss_saveButtonPresenter_notification": {
@@ -481,7 +509,7 @@
         },
         "gpii_psp_qssWidget_learnMore": "Help / Learn more",
         "gpii_psp_qssWidget_helpAndMoreOptions": "Help & More options",
-        "gpii_psp_qssWidget_hideSideCar": "Hide",
+        "gpii_psp_qssWidget_hideSidecar": "Hide",
         "gpii_qssWidget_stepper_incrementButton": "Larger",
         "gpii_qssWidget_stepper_decrementButton": "Smaller",
         "gpii_qssWidget_stepper_upperBoundError": "This is the highest setting",
@@ -499,6 +527,10 @@
         "gpii_qssWidget_openUSB_openUsbButtonLabel": "Open all USB drives",
         "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Safely eject all USB drives",
         "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Re-apply my preferences",
+        "gpii_qss_list_infoBlock": "<p>Tell me more about</p><ul><li><a class='fl-focusable' href='#' tabindex='1'>Morphic and what it is</a></li><li><a class='fl-focusable' href='#' tabindex='2'>How to create or edit my own preferences</a></li><li><a class='fl-focusable' href='#' tabindex='3'>How to make a new key</a></li><li><a class='fl-focusable' href='#' tabindex='4'>How to use this in home</a></li><li><a class='fl-focusable' href='#' tabindex='5'>How to convert my documents</a></li><li><a class='fl-focusable' href='#' tabindex='6'>Other frequently asked questions (FAQ)</a></li><li><a class='fl-focusable' href='#' tabindex='7'>Other help topics</a></li></ul><br><ul><li><a class='fl-focusable' href='#' tabindex='8'>Help me with ____________________________</a></li></ul>",
+        "gpii_qss_list_buttonBlock1": "<h3>Things to try</h3><button class='fl-qss-more-button fl-focusable' tabindex='9'>Button 1</button><button class='fl-qss-more-button fl-focusable' tabindex='10'>Button 2</button><button class='fl-qss-more-button fl-focusable' tabindex='11'>Button 3</button><button class='fl-qss-more-button fl-focusable' tabindex='12'>Button 4</button>",
+        "gpii_qss_list_buttonBlock2": "<h3>Managing Settings</h3><button class='fl-qss-more-button fl-focusable' tabindex='13'>Button 5</button><button class='fl-qss-more-button fl-focusable' tabindex='14'>Button 6</button><button class='fl-qss-more-button fl-focusable' tabindex='15'>Button 7</button><button class='fl-qss-more-button fl-focusable' tabindex='16'>Button 8</button>",
+        "gpii_qss_list_skipButtonLabel": "Skip to main buttons",
         "gpii_app_qss_settings_close": {
             "tooltip": "<p>Close Morphic QuickStrip</p><p>You can reopen it using the Morphic Icon (below) <img height=12 src='../../icons/TaskTrayIcon_outline.svg'></img></p>",
             "title": "×"
@@ -523,14 +555,14 @@
         },
         "gpii_app_qss_settings_more": {
             "tooltip": "<p>More options for changing the settings on this computer.</p>",
-            "title": "MORE...\n\n(& HELP)"
+            "title": "More Buttons (& Help)"
         },
         "gpii_app_qss_settings_common-selfVoicing-enabled": {
             "tooltip": "<p>Turn “Select to Read Aloud” extension in Chrome browser on/off.</p>",
             "title": "Chrome Read Aloud",
             "tip": "<p>Turns on and adjusts Read Aloud mode in Chrome</p>",
             "extendedTip": "<p>To use Read Aloud</p><ol><li>Open web page in Chrome <img height=12 src='../../icons/chrome.svg'></li><li>Select / highlight text</li><li>Click Play button that pops up</li></ol>",
-            "sideCar": "<p>On this menu you can turn on the Read Aloud function installed in the <b>Chrome Browser</b>. When Read Aloud is turned on:</p><ol><li>Select / Highlight text in Chrome</li><li>Click Play button that pops up</li></ol><p>NOTE: when you first turn on read aloud you may have to refresh open pages first.</p><p><b>Microsoft Edge</b> browser also has a Read Aloud mode.  It is always on. To use it:</p><ol><li>Open the Edge browser</li><li>Right-click a webpage and choose “Read Aloud” from the menu</li></ol><p>A Read Aloud toolbar will appear in Edge where you can control the reading.</p><p>Microsoft Word and OneNote also have read aloud features. You can <a href='https://morphic.zendesk.com/hc/en-us/articles/360030418393-Chrome-Read-Aloud'>learn more about read aloud</a> on the Morphic knowledge base.</p>"
+            "sidecar": "<p>On this menu you can turn on the Read Aloud function installed in the <b>Chrome Browser</b>. When Read Aloud is turned on:</p><ol><li>Select / Highlight text in Chrome</li><li>Click Play button that pops up</li></ol><p>NOTE: when you first turn on read aloud you may have to refresh open pages first.</p><p><b>Microsoft Edge</b> browser also has a Read Aloud mode.  It is always on. To use it:</p><ol><li>Open the Edge browser</li><li>Right-click a webpage and choose “Read Aloud” from the menu</li></ol><p>A Read Aloud toolbar will appear in Edge where you can control the reading.</p><p>Microsoft Word and OneNote also have read aloud features. You can <a href='https://morphic.world/basics/learn-more-about-quickstrip#readaloud'>learn more about read aloud</a> on the Morphic knowledge base.</p>"
         },
         "gpii_app_qss_settings_common-highContrastTheme": {
             "tooltip": "<p>Change the contrast between the text and background color, so text is easier to read.</p><p>Contrast changes will affect Windows, Edge, Chrome, and some other applications.</p>",
@@ -545,35 +577,35 @@
                 "Gray on white",
                 "Black on brown"
             ],
-            "sideCar": "<p>On this menu you can change to light mode, dark mode, or a variety of high and low contrast choices.</p><p>Not all applications support all settings. You may also need to restart some applications to see an effect.</p>",
-            "sideCarWithSettings": "<p>On this menu you can change to light mode, dark mode, or a variety of high and low contrast choices.</p><p>Not all applications support all settings. You may also need to restart some applications to see an effect.</p><p>Here are links to take you directly to the full set of Contrast tools in Windows Settings:</p><ul><li><a href='ms-settings:colors'>Windows Color Settings</a> - change color mode and accent colors</li><li><a href='ms-settings:easeofaccess-highcontrast'>Windows High contrast Settings</a> - customize colors for the high contrast mode</li></ul><p>NOTE: Only the high or low contrast settings  on the left will work in Chrome.</p><p>NOTE: Currently Morphic only saves the contrast settings in the list to the left.</p>"
+            "sidecar": "<p>On this menu you can change to light mode, dark mode, or a variety of high and low contrast choices.</p><p>Not all applications support all settings. You may also need to restart some applications to see an effect.</p>",
+            "sidecarWithSettings": "<p>On this menu you can change to light mode, dark mode, or a variety of high and low contrast choices.</p><p>Not all applications support all settings. You may also need to restart some applications to see an effect.</p><p>Here are links to take you directly to the full set of Contrast tools in Windows Settings:</p><ul><li><a href='ms-settings:colors'>Windows Color Settings</a> - change color mode and accent colors</li><li><a href='ms-settings:easeofaccess-highcontrast'>Windows High contrast Settings</a> - customize colors for the high contrast mode</li></ul><p>NOTE: Only the high or low contrast settings  on the left will work in Chrome.</p><p>NOTE: Currently Morphic only saves the contrast settings in the list to the left.</p>"
         },
         "gpii_app_qss_settings_common-DPIScale": {
             "tooltip": "<p>Change whole screen to make everything larger/smaller.</p><p>Works for everything.</p>",
             "title": "Screen Zoom",
             "tip": "<p>Zooms everything on the screen</p><p>Amount of Zoom up and down differs by computer.</p>",
             "footerTip": "",
-            "sideCarWithSettings": "<p>Screen Zoom uses the Windows Screen Scale feature to let you make things larger or smaller on screen to match your preferences.</p><p>Windows also provides other ways to change the screen size or zoom parts of the interface. Use these links to go to the appropriate places in Windows Settings:</p><ul><li><a href='ms-settings:display'>Display settings</a></li><li><a href='ms-settings:display-advanced'>Advanced display settings</a> (only available on devices that support advanced settings)</li><li><a href='ms-settings:easeofaccess-display'>Ease of access display settings</a></li></ul>"
+            "sidecarWithSettings": "<p>Screen Zoom uses the Windows Screen Scale feature to let you make things larger or smaller on screen to match your preferences.</p><p>Windows also provides other ways to change the screen size or zoom parts of the interface. Use these links to go to the appropriate places in Windows Settings:</p><ul><li><a href='ms-settings:display'>Display settings</a></li><li><a href='ms-settings:display-advanced'>Advanced display settings</a> (only available on devices that support advanced settings)</li><li><a href='ms-settings:easeofaccess-display'>Ease of access display settings</a></li></ul>"
         },
         "gpii_app_qss_settings_appTextZoom": {
             "tooltip": "<p>Changes text size.</p><p>Works with many applications including Edge, Chrome, Firefox, Microsoft Office, and more.</p>",
             "title": "Zoom Top Window",
             "tip": "<p>Zoom Top Window</p><p>Note: Not all windows zoom.</p>",
             "footerTip": "<a href=\"https://morphic.world/basics/learn-more-about-quickstrip#textzoom\">Want a faster way to zoom a window?</a>",
-            "sideCar": "<p>The “Top Window Zoom” buttons are provided to make zooming the text in many application Windows easy.</p><p>But there are even faster ways to do this that do not require you to open the QuickStrip at all. Again, they do not work in all applications but they work in many.</p><ul><li>You can hold CTRL down and use the scrollwheel on your mouse to zoom in/out</li><li>Hold the CTRL key down and use the + and - keys on keyboard to zoom in/out</li></ul>"
+            "sidecar": "<p>The “Top Window Zoom” buttons are provided to make zooming the text in many application Windows easy.</p><p>But there are even faster ways to do this that do not require you to open the QuickStrip at all. Again, they do not work in all applications but they work in many.</p><ul><li>You can hold CTRL down and use the scrollwheel on your mouse to zoom in/out</li><li>Hold the CTRL key down and use the + and - keys on keyboard to zoom in/out</li></ul>"
         },
         "gpii_app_qss_settings_common-language": {
             "tooltip": "<p>Change Language of Menus & Ribbons.</p><p>Works in Windows, Edge, Office and other programs with language packs installed.</p>",
             "title": "Language of Menus",
             "tip": "<p>Change Language of Menus/Ribbons</p><p>Works in Windows, and other apps that support Windows language settings.</p><ul><li>Does not translate documents etc.</li><li>You may need to restart some apps to see change.</li></ul>",
-            "sideCar": "<p>The language choices in the list are the Microsoft languages approved by your IT department for this site.</p><p>To add another language to the list - see your IT department.</p><p>(On personal and home machines - a SETUP Tool will be available to select the languages for you computer)</p>"
+            "sidecar": "<p>The language choices in the list are the Microsoft languages approved by your IT department for this site.</p><p>To add another language to the list - see your IT department.</p><p>(On personal and home machines - a SETUP Tool will be available to select the languages for you computer)</p>"
         },
         "gpii_app_qss_settings_usb-open": {
             "tooltip": "<p>Open and safely Eject all USB flash drives plugged into the computer.</p>",
             "title": "Open & Eject USB",
             "tip": "<p>Your USB Drive</p><p>Insert a USB drive and open it with the button below.</p>",
             "footerTip": "<p>When you are done, prevent data loss by ejecting USB drives safely.</p><ol><li>Close all documents opened from the USB drive and</li><li>Then use the button below to safely eject the USB drives</li></ol>",
-            "sideCar": "<p>On this menu you can open all of the USB drives plugged into your computer with one click.</p><p>When you are done with your USB drives, use this menu again to eject your drives safely. This will help keep your data safe.</p>"
+            "sidecar": "<p>On this menu you can open all of the USB drives plugged into your computer with one click.</p><p>When you are done with your USB drives, use this menu again to eject your drives safely. This will help keep your data safe.</p>"
         },
         "gpii_app_qss_settings_screenCapture": {
             "tooltip": "<p>Screen Capture.</p><p>Take pictures of all or part of the screen.</p>",
@@ -583,7 +615,7 @@
                 "Make COPY to PASTE into doc, email, etc.",
                 "Take PICTURE and save to desktop"
             ],
-            "sideCar": "<p>This Screen capture tool uses the open source software ShareX to capture settings with high precision.</p><p>ShareX has many other features available. Open ShareX by pressing the Windows key and typing <b>ShareX</b>.</p><p>Microsoft also has a built in screen capture tool called Snipping Tool that you can call up  by pressing <b>WinKey+Shift+S</b>.</p>"
+            "sidecar": "<p>This Screen capture tool uses the open source software ShareX to capture settings with high precision.</p><p>ShareX has many other features available. Open ShareX by pressing the Windows key and typing <b>ShareX</b>.</p><p>Microsoft also has a built in screen capture tool called Snipping Tool that you can call up  by pressing <b>WinKey+Shift+S</b>.</p>"
         },
         "gpii_app_qss_settings_cloud-folder-open": {
             "tooltip": "<p>The Quick Folder has commonly requested documents, web pages, and other resources.</p>",
@@ -597,14 +629,14 @@
                 "Basic (Morphic)",
                 "Essentials (Morphic)"
             ],
-            "sideCar": "<p>You can also create your own custom Microsoft Word Ribbons on your own computer.</p><p>To create a customized ribbon right click on the right edge of the ribbon bar and select “Customize Ribbons”. Further instructions are available on the <a href='https://support.office.com/en-us/article/customize-the-ribbon-in-office-00f24ca7-6021-48d3-9514-a31a460ecb31'>Microsoft Office support site</a>.</p><p>NOTE: User customized ribbons are not currently captured and saved by Morphic.</p>"
+            "sidecar": "<p>You can also create your own custom Microsoft Word Ribbons on your own computer.</p><p>To create a customized ribbon right click on the right edge of the ribbon bar and select “Customize Ribbons”. Further instructions are available on the <a href='https://support.office.com/en-us/article/customize-the-ribbon-in-office-00f24ca7-6021-48d3-9514-a31a460ecb31'>Microsoft Office support site</a>.</p><p>NOTE: User customized ribbons are not currently captured and saved by Morphic.</p>"
         },
         "gpii_app_qss_settings_common-volume": {
             "tooltip": "<p>Adjusts Windows Volume and provides Mute on/off.</p>",
             "title": "Volume & Mute",
             "tip": "<p>Volume and Mute</p>",
             "switchTitle": "Mute all audio",
-            "sideCar": "<p>A quicker and easier way to change the volume is to just click on the speaker icon on the system tray (near the clock at the bottom of the screen).</p><img src='../../assets/volumeMute.png' alt='volumeMute' class='full'>"
+            "sidecar": "<p>A quicker and easier way to change the volume is to just click on the speaker icon on the system tray (near the clock at the bottom of the screen).</p><img src='../../assets/volumeMute.png' alt='volumeMute' class='full'>"
         },
         "gpii_app_qss_settings_launch-documorph": {
             "tooltip": "<p>Converts documents into more accessible forms.</p>",
@@ -619,7 +651,7 @@
             "tooltip": "<p>Change Windows Mouse setting.</p><p>Works in all applications.</p>",
             "title": "Adjust Mouse",
             "tip": "<p>Adjust Mouse</p>",
-            "sideCarWithSettings": "<p>We have provided some of the most commonly used Windows Mouse settings here.</p><p>Microsoft also provides other mouse settings. The following links will  take you directly to the key additional Mouse settings in the Windows Setting screens.</p><ul><li><a href='ms-settings:mousetouchpad'>Mouse button and scroll modes</a></li><li><a href='ms-settings:easeofaccess-mouse'>Mouse Keys</a></li><li><a href='ms-settings:devices-touchpad'>Touchpad sensitivity</a> (if your computer has a touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Cursor and pointer size, color, and touch feedback</a></li></ul>"
+            "sidecarWithSettings": "<p>We have provided some of the most commonly used Windows Mouse settings here.</p><p>Microsoft also provides other mouse settings. The following links will  take you directly to the key additional Mouse settings in the Windows Setting screens.</p><ul><li><a href='ms-settings:mousetouchpad'>Mouse button and scroll modes</a></li><li><a href='ms-settings:easeofaccess-mouse'>Mouse Keys</a></li><li><a href='ms-settings:devices-touchpad'>Touchpad sensitivity</a> (if your computer has a touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Cursor and pointer size, color, and touch feedback</a></li></ul>"
         },
         "gpii_app_qss_settings_windows-swapMouseButtons": {
             "title": "Swap mouse buttons"
@@ -652,6 +684,19 @@
         "gpii_app_qss_settings_url-customize-qss": {
             "tooltip": "<p>Open the web tool to customize quickstrip's buttons.</p>",
             "title": "Customize Quickstrip"
+        },
+        "gpii_app_qss_settings_common-colorVision": {
+            "tooltip": "<p>Change the colors displayed on the screen to make things easier to view or distinguish.</p>",
+            "title": "Color Vision",
+            "tip": "<p>Color Vision Filters</p><p>Shifts colors to help those with some form of color blindness distinguish colors.</p>",
+            "footerTip": "<div class='colorWheelTip'><p>Pick an option that makes the nine colors below more distinct.</p><center><img height=64 src='../../assets/color-vision-wheel.png' /></center></div>",
+            "enum": [
+                "Standard colors",
+                "Red-Green (Green weak)",
+                "Red-Green (Red weak)",
+                "Blue-Yellow (Tritanomaly)"
+            ],
+            "sidecarWithSettings": "<p>In addition to the Windows color vision options presented in the panel to the left, there are also several grayscale options provided in Windows setting.</p><p>Here is the link to take you directly to the full set of Color Vision Options in Windows Settings:</p><ul><li><a href='ms-settings:easeofaccess-colorfilter'>Color Vision Settings</a></li></ul>"
         },
         "gpii_userErrors_EADDRINUSE-title": "Morphic can't start",
         "gpii_userErrors_EADDRINUSE-subhead": "There is another application listening on the same port",
@@ -700,9 +745,6 @@
         "gpii_psp_aboutDialog_submitSuggestions": "Submit suggestions",
         "gpii_qss_toggleButtonPresenter_caption": "[now ON]",
         "gpii_qss_volumeButtonPresenter_caption": "(Audio Muted)",
-        "gpii_psp_qssMorePanel_title": "More",
-        "gpii_psp_qssMorePanel_details": "Watch this space for more Morphic buttons, as well as additional features to help you tune the computer to your specific needs and preferences",
-        "gpii_psp_qssMorePanel_link": "For more information on Morphic go to <a target=\"_blank\" href=\"%moreInfoUrl\">%moreInfoUrl</a>",
         "gpii_psp_qssNotification_title": "Morphic Notification",
         "gpii_psp_qssNotification_dismissButtonLabel": "OK",
         "gpii_qss_saveButtonPresenter_notification": {
@@ -711,7 +753,7 @@
         },
         "gpii_psp_qssWidget_learnMore": "Help / Learn more",
         "gpii_psp_qssWidget_helpAndMoreOptions": "Help & More options",
-        "gpii_psp_qssWidget_hideSideCar": "Ocultar",
+        "gpii_psp_qssWidget_hideSidecar": "Hide",
         "gpii_qssWidget_stepper_incrementButton": "Larger",
         "gpii_qssWidget_stepper_decrementButton": "Smaller",
         "gpii_qssWidget_stepper_upperBoundError": "This is the highest setting",
@@ -729,6 +771,10 @@
         "gpii_qssWidget_openUSB_openUsbButtonLabel": "Open all USB drives",
         "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Safely eject all USB drives",
         "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Re-apply my preferences",
+        "gpii_qss_list_infoBlock": "<p>Tell me more about</p><ul><li><a class='fl-focusable' href='#' tabindex='1'>Morphic and what it is</a></li><li><a class='fl-focusable' href='#' tabindex='2'>How to create or edit my own preferences</a></li><li><a class='fl-focusable' href='#' tabindex='3'>How to make a new key</a></li><li><a class='fl-focusable' href='#' tabindex='4'>How to use this in home</a></li><li><a class='fl-focusable' href='#' tabindex='5'>How to convert my documents</a></li><li><a class='fl-focusable' href='#' tabindex='6'>Other frequently asked questions (FAQ)</a></li><li><a class='fl-focusable' href='#' tabindex='7'>Other help topics</a></li></ul><br><ul><li><a class='fl-focusable' href='#' tabindex='8'>Help me with ____________________________</a></li></ul>",
+        "gpii_qss_list_buttonBlock1": "<h3>Things to try</h3><button class='fl-qss-more-button fl-focusable' tabindex='9'>Button 1</button><button class='fl-qss-more-button fl-focusable' tabindex='10'>Button 2</button><button class='fl-qss-more-button fl-focusable' tabindex='11'>Button 3</button><button class='fl-qss-more-button fl-focusable' tabindex='12'>Button 4</button>",
+        "gpii_qss_list_buttonBlock2": "<h3>Managing Settings</h3><button class='fl-qss-more-button fl-focusable' tabindex='13'>Button 5</button><button class='fl-qss-more-button fl-focusable' tabindex='14'>Button 6</button><button class='fl-qss-more-button fl-focusable' tabindex='15'>Button 7</button><button class='fl-qss-more-button fl-focusable' tabindex='16'>Button 8</button>",
+        "gpii_qss_list_skipButtonLabel": "Skip to main buttons",
         "gpii_app_qss_settings_close": {
             "tooltip": "<p>Close Morphic QuickStrip</p><p>You can reopen it using the Morphic Icon (below) <img height=12 src='../../icons/TaskTrayIcon_outline.svg'></img></p>",
             "title": "×"
@@ -883,6 +929,19 @@
             "tooltip": "<p>Open the web tool to customize quickstrip's buttons.</p>",
             "title": "Customize Quickstrip"
         },
+        "gpii_app_qss_settings_common-colorVision": {
+            "tooltip": "<p>Change the colors displayed on the screen to make things easier to view or distinguish.</p>",
+            "title": "Color Vision",
+            "tip": "<p>Color Vision Filters</p><p>Shifts colors to help those with some form of color blindness distinguish colors.</p>",
+            "footerTip": "<div class='colorWheelTip'><p>Pick an option that makes the nine colors below more distinct.</p><center><img height=64 src='../../assets/color-vision-wheel.png' /></center></div>",
+            "enum": [
+                "Standard colors",
+                "Red-Green (Green weak)",
+                "Red-Green (Red weak)",
+                "Blue-Yellow (Tritanomaly)"
+            ],
+            "sidecarWithSettings": "<p>In addition to the Windows color vision options presented in the panel to the left, there are also several grayscale options provided in Windows setting.</p><p>Here is the link to take you directly to the full set of Color Vision Options in Windows Settings:</p><ul><li><a href='ms-settings:easeofaccess-colorfilter'>Color Vision Settings</a></li></ul>"
+        },
         "gpii_userErrors_EADDRINUSE-title": "Morphic can't start",
         "gpii_userErrors_EADDRINUSE-subhead": "There is another application listening on the same port",
         "gpii_userErrors_EADDRINUSE-details": "Stop the other running application and try again. If the problem is still present, <a href='https://morphic.world/contact/'>contact Morphic Technical Support</a>.",
@@ -906,7 +965,11 @@
         "gpii_userErrors_StopApplicationFail-details": "You can stop the program yourself. If this problem continues, try restarting your computer.",
         "gpii_userErrors_SaveToCloudFail-title": "Your settings were not saved",
         "gpii_userErrors_SaveToCloudFail-subhead": "Your settings have not been saved to your online account and are not available to use on other computers.",
-        "gpii_userErrors_SaveToCloudFail-details": "Check your internet connection and your Morphic account password and try again."
+        "gpii_userErrors_SaveToCloudFail-details": "Check your internet connection and your Morphic account password and try again.",
+        "gpii_psp_qssMorePanel_title": "More",
+        "gpii_psp_qssMorePanel_details": "Watch this space for more Morphic buttons, as well as additional features to help you tune the computer to your specific needs and preferences",
+        "gpii_psp_qssMorePanel_link": "For more information on Morphic go to <a target=\"_blank\" href=\"%moreInfoUrl\">%moreInfoUrl</a>",
+        "gpii_psp_qssWidget_hideSideCar": "Ocultar"
     },
     "pt_PT": {
         "gpii_app_menu_about": "Sobre...",
@@ -930,9 +993,6 @@
         "gpii_psp_aboutDialog_submitSuggestions": "Submeter sugestões",
         "gpii_qss_toggleButtonPresenter_caption": "[agora ligado]",
         "gpii_qss_volumeButtonPresenter_caption": "(Áudio desligado)",
-        "gpii_psp_qssMorePanel_title": "Mais",
-        "gpii_psp_qssMorePanel_details": "Veja esta página para mais Morphic ícones, assim como funcionalidades adicionais que o ajudam a ajustar o computador às suas necessidades e preferências específicas.",
-        "gpii_psp_qssMorePanel_link": "Para mais informação sobre Morphic vá a <a target=\"_blank\" href=\"%moreInfoUrl\">%moreInfoUrl</a>",
         "gpii_psp_qssNotification_title": "Notificação Morphic",
         "gpii_psp_qssNotification_dismissButtonLabel": "OK",
         "gpii_qss_saveButtonPresenter_notification": {
@@ -941,7 +1001,7 @@
         },
         "gpii_psp_qssWidget_learnMore": "Ajuda / Aprenda mais ",
         "gpii_psp_qssWidget_helpAndMoreOptions": "Ajuda & mais opções",
-        "gpii_psp_qssWidget_hideSideCar": "Esconder",
+        "gpii_psp_qssWidget_hideSidecar": "Hide",
         "gpii_qssWidget_stepper_incrementButton": "Maior",
         "gpii_qssWidget_stepper_decrementButton": "Menor",
         "gpii_qssWidget_stepper_upperBoundError": "Esta é a configuração mais alta",
@@ -959,6 +1019,10 @@
         "gpii_qssWidget_openUSB_openUsbButtonLabel": "Abrir todas as Pen drives",
         "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Retire todas as Pen drives com segurança",
         "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Recolocar as minhas preferências",
+        "gpii_qss_list_infoBlock": "<p>Tell me more about</p><ul><li><a class='fl-focusable' href='#' tabindex='1'>Morphic and what it is</a></li><li><a class='fl-focusable' href='#' tabindex='2'>How to create or edit my own preferences</a></li><li><a class='fl-focusable' href='#' tabindex='3'>How to make a new key</a></li><li><a class='fl-focusable' href='#' tabindex='4'>How to use this in home</a></li><li><a class='fl-focusable' href='#' tabindex='5'>How to convert my documents</a></li><li><a class='fl-focusable' href='#' tabindex='6'>Other frequently asked questions (FAQ)</a></li><li><a class='fl-focusable' href='#' tabindex='7'>Other help topics</a></li></ul><br><ul><li><a class='fl-focusable' href='#' tabindex='8'>Help me with ____________________________</a></li></ul>",
+        "gpii_qss_list_buttonBlock1": "<h3>Things to try</h3><button class='fl-qss-more-button fl-focusable' tabindex='9'>Button 1</button><button class='fl-qss-more-button fl-focusable' tabindex='10'>Button 2</button><button class='fl-qss-more-button fl-focusable' tabindex='11'>Button 3</button><button class='fl-qss-more-button fl-focusable' tabindex='12'>Button 4</button>",
+        "gpii_qss_list_buttonBlock2": "<h3>Managing Settings</h3><button class='fl-qss-more-button fl-focusable' tabindex='13'>Button 5</button><button class='fl-qss-more-button fl-focusable' tabindex='14'>Button 6</button><button class='fl-qss-more-button fl-focusable' tabindex='15'>Button 7</button><button class='fl-qss-more-button fl-focusable' tabindex='16'>Button 8</button>",
+        "gpii_qss_list_skipButtonLabel": "Skip to main buttons",
         "gpii_app_qss_settings_close": {
             "tooltip": "<p>Fechar Morphic QuickStrip</p><p> Poderá reabri-lo usando o ícone do Morphic (em baixo) <img height=12 src='../../icons/TaskTrayIcon_outline.svg'></img></p>",
             "title": "x"
@@ -1113,6 +1177,19 @@
             "tooltip": "<p>Abrir a ferramenta da internet para personalizar os botões do quickstrip.</p>",
             "title": "Personalizar Quickstrip"
         },
+        "gpii_app_qss_settings_common-colorVision": {
+            "tooltip": "<p>Change the colors displayed on the screen to make things easier to view or distinguish.</p>",
+            "title": "Color Vision",
+            "tip": "<p>Color Vision Filters</p><p>Shifts colors to help those with some form of color blindness distinguish colors.</p>",
+            "footerTip": "<div class='colorWheelTip'><p>Pick an option that makes the nine colors below more distinct.</p><center><img height=64 src='../../assets/color-vision-wheel.png' /></center></div>",
+            "enum": [
+                "Standard colors",
+                "Red-Green (Green weak)",
+                "Red-Green (Red weak)",
+                "Blue-Yellow (Tritanomaly)"
+            ],
+            "sidecarWithSettings": "<p>In addition to the Windows color vision options presented in the panel to the left, there are also several grayscale options provided in Windows setting.</p><p>Here is the link to take you directly to the full set of Color Vision Options in Windows Settings:</p><ul><li><a href='ms-settings:easeofaccess-colorfilter'>Color Vision Settings</a></li></ul>"
+        },
         "gpii_userErrors_EADDRINUSE-title": "O Morphic não consegue iniciar",
         "gpii_userErrors_EADDRINUSE-subhead": "There is another application listening on the same port",
         "gpii_userErrors_EADDRINUSE-details": "Feche as outras aplicações aberta e tente outra vez. Se o problema persistir, <a href='https://morphic.world/contact/'>contacte o apoio técnico do Morphic </a>.",
@@ -1136,6 +1213,10 @@
         "gpii_userErrors_StopApplicationFail-details": "Pode fechar o programa sozinho. Se o problema persistir, tente reiniciar o seu computador.",
         "gpii_userErrors_SaveToCloudFail-title": "As suas configurações não foram guardadas.",
         "gpii_userErrors_SaveToCloudFail-subhead": "As suas configurações não foram guardadas na sua conta online e não estão disponíveis para usar noutros computadores.",
-        "gpii_userErrors_SaveToCloudFail-details": "Verifique a sua ligação à internet e a sua password da sua conta Morphic e tente outra vez."
+        "gpii_userErrors_SaveToCloudFail-details": "Verifique a sua ligação à internet e a sua password da sua conta Morphic e tente outra vez.",
+        "gpii_psp_qssMorePanel_title": "Mais",
+        "gpii_psp_qssMorePanel_details": "Veja esta página para mais Morphic ícones, assim como funcionalidades adicionais que o ajudam a ajustar o computador às suas necessidades e preferências específicas.",
+        "gpii_psp_qssMorePanel_link": "Para mais informação sobre Morphic vá a <a target=\"_blank\" href=\"%moreInfoUrl\">%moreInfoUrl</a>",
+        "gpii_psp_qssWidget_hideSideCar": "Esconder"
     }
 }
