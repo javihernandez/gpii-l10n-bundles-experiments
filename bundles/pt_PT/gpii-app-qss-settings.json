@@ -9,7 +9,7 @@
     },
     "gpii_app_qss_settings_resetAll": {
         "tooltip": "<p>Redefinir as configura\u00e7\u00f5es padr\u00e3o para este computador<\/p><p>(e faz com que saia do Morphic mas n\u00e3o modifica as suas configura\u00e7\u00f5es guardadas)<\/p>",
-        "title": "Redefinir para padr\u00e3o"
+        "title": "Repôr padrão"
     },
     "gpii_app_qss_settings_save": {
         "tooltip": "<p>Salve as suas prefer\u00eancias para poder us\u00e1-las mais tarde em computadores que tenham o Morphic instalado.<\/p>",
@@ -17,7 +17,7 @@
     },
     "gpii_app_qss_settings_mySavedSettings": {
         "tooltip": "<p>As minhas configura\u00e7\u00f5es guardadas<\/p>",
-        "title": "As minhas configura\u00e7\u00f5es guardadas",
+        "title": "Minhas configura\u00e7\u00f5es",
         "tip": "<p>As minhas configura\u00e7\u00f5es guardadas<\/p>",
         "footerTip": "<ul><li>Para usar as suas configura\u00e7\u00f5es guardadas, insira a Morphic USB key.<\/li><li> Para reus\u00e1-los, remova e reinsira a Morphic key.<\/li><\/ul>"
     },
