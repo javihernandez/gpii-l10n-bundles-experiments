@@ -2,8 +2,6 @@ name: gpii-l10n-bundles-experiments CI
 
 on:
   push:
-    branches:
-      - master
 
 jobs:
   build:
