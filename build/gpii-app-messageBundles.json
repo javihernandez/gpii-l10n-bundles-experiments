@@ -421,6 +421,30 @@
         "gpii_psp_aboutDialog_version": "version %version",
         "gpii_psp_aboutDialog_morphicHome": "Go to Morphic home",
         "gpii_psp_aboutDialog_submitSuggestions": "Submit suggestions",
+        "gpii_psp_makeYourOwnButtonEditor_nameLabel": "Name",
+        "gpii_psp_makeYourOwnButtonEditor_namePlaceholder": "Enter name for button",
+        "gpii_psp_makeYourOwnButtonEditor_typeLabel": "Button Type",
+        "gpii_psp_makeYourOwnButtonEditor_typeOptionWeb": "Button that opens a website",
+        "gpii_psp_makeYourOwnButtonEditor_typeOptionApp": "Button that opens an application",
+        "gpii_psp_makeYourOwnButtonEditor_dataLabelWeb": "URL Address",
+        "gpii_psp_makeYourOwnButtonEditor_dataLabelApp": "Path to application executable",
+        "gpii_psp_makeYourOwnButtonEditor_dataPlaceholderWeb": "Enter address of the webpage",
+        "gpii_psp_makeYourOwnButtonEditor_dataPlaceholderApp": "Enter path to application executable",
+        "gpii_psp_makeYourOwnButtonEditor_popupLabel": "Popup Text",
+        "gpii_psp_makeYourOwnButtonEditor_popupPlaceholder": "Enter Popup Text",
+        "gpii_psp_makeYourOwnButtonEditor_descriptionLabel": "Description",
+        "gpii_psp_makeYourOwnButtonEditor_descriptionPlaceholder": "Enter description",
+        "gpii_psp_makeYourOwnButtonEditor_saveButtonLabel": "Save button",
+        "gpii_psp_smartworkLogin_usernameLabel": "Username",
+        "gpii_psp_smartworkLogin_usernamePlaceholder": "Enter your smartwork user",
+        "gpii_psp_smartworkLogin_passwordLabel": "Password",
+        "gpii_psp_smartworkLogin_passwordPlaceholder": "Enter your password",
+        "gpii_psp_smartworkLogin_loginButtonLabel": "Login",
+        "gpii_psp_smartworkLogin_logoutButtonLabel": "Logout",
+        "gpii_psp_smartworkLogin_loginSuccess": "Login succeeded",
+        "gpii_psp_smartworkLogin_loginFail": "Invalid Credentials",
+        "gpii_psp_smartworkLogin_logoutWarning": "When logging out, the Smartwork credentials will be removed from your system and you will be keyed out from Morphic",
+        "gpii_psp_smartworkLogin_logoutSuccess": "Successfully removed Smartwork credentials from the system",
         "gpii_qss_toggleButtonPresenter_caption": "[now ON]",
         "gpii_qss_volumeButtonPresenter_caption": "(Audio Muted)",
         "gpii_psp_qssNotification_title": "Morphic Notification",
@@ -444,14 +468,22 @@
         "gpii_qssWidget_mouse_decrementButton": "Slower",
         "gpii_qssWidget_mouse_upperBoundError": "This is fastest speed",
         "gpii_qssWidget_mouse_lowerBoundError": "This is slowest speed",
+        "gpii_qssWidget_morphicWidgetTooltipDisplayDelay_settingTitle": "Tooltip show delay (Range is between 0.5 and 3 seconds)",
+        "gpii_qssWidget_morphicWidgetTooltipDisplayDelay_incrementButton": "Slower",
+        "gpii_qssWidget_morphicWidgetTooltipDisplayDelay_decrementButton": "Faster",
+        "gpii_qssWidget_morphicWidgetTooltipDisplayDelay_upperBoundError": "You reached the lowest tooltip display delay",
+        "gpii_qssWidget_morphicWidgetTooltipDisplayDelay_lowerBoundError": "You reached the fastest tooltip display delay",
+        "gpii_qssWidget_morphicWidgetScaleFactor_settingTitle": "QuickStrip Scale Factor",
+        "gpii_qssWidget_morphicWidgetScaleFactor_incrementButton": "Larger",
+        "gpii_qssWidget_morphicWidgetScaleFactor_decrementButton": "Smaller",
+        "gpii_qssWidget_morphicWidgetScaleFactor_upperBoundError": "This is the highest value",
+        "gpii_qssWidget_morphicWidgetScaleFactor_lowerBoundError": "This is the lowest value",
+        "gpii_qssWidget_morphic_openEditorButtonLabel": "Open Settings editor",
         "gpii_qssWidget_openUSB_noUsbInserted": "There are no USB drives plugged into the computer. Insert your USB and try again.",
         "gpii_qssWidget_openUSB_ejectUsbDrives": "There are no USB drives active in the computer. It is safe to remove any drive in the computer",
         "gpii_qssWidget_openUSB_openUsbButtonLabel": "Open all USB drives",
         "gpii_qssWidget_openUSB_ejectUsbButtonLabel": "Safely eject all USB drives",
         "gpii_qssWidget_mySavedSettings_reApplyPreferencesButtonLabel": "Re-apply my preferences",
-        "gpii_qss_list_infoBlock": "<p>Tell me more about</p><ul><li><a class='fl-focusable' href='#' tabindex='1'>Morphic and what it is</a></li><li><a class='fl-focusable' href='#' tabindex='2'>How to create or edit my own preferences</a></li><li><a class='fl-focusable' href='#' tabindex='3'>How to make a new key</a></li><li><a class='fl-focusable' href='#' tabindex='4'>How to use this in home</a></li><li><a class='fl-focusable' href='#' tabindex='5'>How to convert my documents</a></li><li><a class='fl-focusable' href='#' tabindex='6'>Other frequently asked questions (FAQ)</a></li><li><a class='fl-focusable' href='#' tabindex='7'>Other help topics</a></li></ul><br><ul><li><a class='fl-focusable' href='#' tabindex='8'>Help me with ____________________________</a></li></ul>",
-        "gpii_qss_list_buttonBlock1": "<h3>Things to try</h3><button class='fl-qss-more-button fl-focusable' tabindex='9'>Button 1</button><button class='fl-qss-more-button fl-focusable' tabindex='10'>Button 2</button><button class='fl-qss-more-button fl-focusable' tabindex='11'>Button 3</button><button class='fl-qss-more-button fl-focusable' tabindex='12'>Button 4</button>",
-        "gpii_qss_list_buttonBlock2": "<h3>Managing Settings</h3><button class='fl-qss-more-button fl-focusable' tabindex='13'>Button 5</button><button class='fl-qss-more-button fl-focusable' tabindex='14'>Button 6</button><button class='fl-qss-more-button fl-focusable' tabindex='15'>Button 7</button><button class='fl-qss-more-button fl-focusable' tabindex='16'>Button 8</button>",
         "gpii_qss_list_skipButtonLabel": "Skip to main buttons",
         "gpii_app_qss_settings_close": {
             "tooltip": "<p>Close Morphic QuickStrip</p><p>You can reopen it using the Morphic Icon (below) <img height=12 src='../../icons/TaskTrayIcon_outline.svg'></img></p>",
@@ -473,7 +505,7 @@
             "tooltip": "<p>My Saved Settings</p>",
             "title": "My Saved Settings",
             "tip": "<p>My Saved Settings</p>",
-            "footerTip": "<ul><li>To apply your saved settings, insert a Morphic USB key.</li><li>To re-apply them, remove and then reinsert the Morphic Key.</li></ul>"
+            "footerTip": "<p>To apply your saved Morphic settings, log into Smartwork.</p>"
         },
         "gpii_app_qss_settings_more": {
             "tooltip": "<p>More options for changing the settings on this computer.</p>",
@@ -484,7 +516,8 @@
             "title": "Chrome Read Aloud",
             "tip": "<p>Turns on and adjusts Read Aloud mode in Chrome</p>",
             "extendedTip": "<p>To use Read Aloud</p><ol><li>Open web page in Chrome <img height=12 src='../../icons/chrome.svg'></li><li>Select / highlight text</li><li>Click Play button that pops up</li></ol>",
-            "sidecar": "<p>On this menu you can turn on the Read Aloud function installed in the <b>Chrome Browser</b>. When Read Aloud is turned on:</p><ol><li>Select / Highlight text in Chrome</li><li>Click Play button that pops up</li></ol><p>NOTE: when you first turn on read aloud you may have to refresh open pages first.</p><p><b>Microsoft Edge</b> browser also has a Read Aloud mode.  It is always on. To use it:</p><ol><li>Open the Edge browser</li><li>Right-click a webpage and choose “Read Aloud” from the menu</li></ol><p>A Read Aloud toolbar will appear in Edge where you can control the reading.</p><p>Microsoft Word and OneNote also have read aloud features. You can <a href='https://morphic.world/basics/learn-more-about-quickstrip#readaloud'>learn more about read aloud</a> on the Morphic knowledge base.</p>"
+            "sidecar": "<p>On this menu you can turn on the Read Aloud function installed in the <b>Chrome Browser</b>. When Read Aloud is turned on:</p><ol><li>Select / Highlight text in Chrome</li><li>Click Play button that pops up</li></ol><p>NOTE: when you first turn on read aloud you may have to refresh open pages first.</p><p><b>Microsoft Edge</b> browser also has a Read Aloud mode.  It is always on. To use it:</p><ol><li>Open the Edge browser</li><li>Right-click a webpage and choose “Read Aloud” from the menu</li></ol><p>A Read Aloud toolbar will appear in Edge where you can control the reading.</p><p>Microsoft Word and OneNote also have read aloud features. You can <a href='https://morphic.world/basics/learn-more-about-quickstrip#readaloud'>learn more about read aloud</a> on the Morphic knowledge base.</p>",
+            "description": "Use this button to enable/disable the Read Aloud functionality from UIO+ for Google Chrome. Note that UIO+ for Google Chrome comes pre-installed with Morphic."
         },
         "gpii_app_qss_settings_common-highContrastTheme": {
             "tooltip": "<p>Change the contrast between the text and background color, so text is easier to read.</p><p>Contrast changes will affect Windows, Edge, Chrome, and some other applications.</p>",
@@ -500,34 +533,39 @@
                 "Black on brown"
             ],
             "sidecar": "<p>On this menu you can change to light mode, dark mode, or a variety of high and low contrast choices.</p><p>Not all applications support all settings. You may also need to restart some applications to see an effect.</p>",
-            "sidecarWithSettings": "<p>On this menu you can change to light mode, dark mode, or a variety of high and low contrast choices.</p><p>Not all applications support all settings. You may also need to restart some applications to see an effect.</p><p>Here are links to take you directly to the full set of Contrast tools in Windows Settings:</p><ul><li><a href='ms-settings:colors'>Windows Color Settings</a> - change color mode and accent colors</li><li><a href='ms-settings:easeofaccess-highcontrast'>Windows High contrast Settings</a> - customize colors for the high contrast mode</li></ul><p>NOTE: Only the high or low contrast settings  on the left will work in Chrome.</p><p>NOTE: Currently Morphic only saves the contrast settings in the list to the left.</p>"
+            "sidecarWithSettings": "<p>On this menu you can change to light mode, dark mode, or a variety of high and low contrast choices.</p><p>Not all applications support all settings. You may also need to restart some applications to see an effect.</p><p>Here are links to take you directly to the full set of Contrast tools in Windows Settings:</p><ul><li><a href='ms-settings:colors'>Windows Color Settings</a> - change color mode and accent colors</li><li><a href='ms-settings:easeofaccess-highcontrast'>Windows High contrast Settings</a> - customize colors for the high contrast mode</li></ul><p>NOTE: Only the high or low contrast settings  on the left will work in Chrome.</p><p>NOTE: Currently Morphic only saves the contrast settings in the list to the left.</p>",
+            "description": "This button provides an easy way to switch between the different High Contrast Themes that are available in the system."
         },
         "gpii_app_qss_settings_common-DPIScale": {
             "tooltip": "<p>Change whole screen to make everything larger/smaller.</p><p>Works for everything.</p>",
             "title": "Screen Zoom",
             "tip": "<p>Zooms everything on the screen</p><p>Amount of Zoom up and down differs by computer.</p>",
             "footerTip": "",
-            "sidecarWithSettings": "<p>Screen Zoom uses the Windows Screen Scale feature to let you make things larger or smaller on screen to match your preferences.</p><p>Windows also provides other ways to change the screen size or zoom parts of the interface. Use these links to go to the appropriate places in Windows Settings:</p><ul><li><a href='ms-settings:display'>Display settings</a></li><li><a href='ms-settings:display-advanced'>Advanced display settings</a> (only available on devices that support advanced settings)</li><li><a href='ms-settings:easeofaccess-display'>Ease of access display settings</a></li></ul>"
+            "sidecarWithSettings": "<p>Screen Zoom uses the Windows Screen Scale feature to let you make things larger or smaller on screen to match your preferences.</p><p>Windows also provides other ways to change the screen size or zoom parts of the interface. Use these links to go to the appropriate places in Windows Settings:</p><ul><li><a href='ms-settings:display'>Display settings</a></li><li><a href='ms-settings:display-advanced'>Advanced display settings</a> (only available on devices that support advanced settings)</li><li><a href='ms-settings:easeofaccess-display'>Ease of access display settings</a></li></ul>",
+            "description": "This button allows the user to make everything on the screen larger or smaller."
         },
         "gpii_app_qss_settings_appTextZoom": {
             "tooltip": "<p>Changes text size.</p><p>Works with many applications including Edge, Chrome, Firefox, Microsoft Office, and more.</p>",
             "title": "Zoom Top Window",
             "tip": "<p>Zoom Top Window</p><p>Note: Not all windows zoom.</p>",
             "footerTip": "<a href=\"https://morphic.world/basics/learn-more-about-quickstrip#textzoom\">Want a faster way to zoom a window?</a>",
-            "sidecar": "<p>The “Top Window Zoom” buttons are provided to make zooming the text in many application Windows easy.</p><p>But there are even faster ways to do this that do not require you to open the QuickStrip at all. Again, they do not work in all applications but they work in many.</p><ul><li>You can hold CTRL down and use the scrollwheel on your mouse to zoom in/out</li><li>Hold the CTRL key down and use the + and - keys on keyboard to zoom in/out</li></ul>"
+            "sidecar": "<p>The “Top Window Zoom” buttons are provided to make zooming the text in many application Windows easy.</p><p>But there are even faster ways to do this that do not require you to open the QuickStrip at all. Again, they do not work in all applications but they work in many.</p><ul><li>You can hold CTRL down and use the scrollwheel on your mouse to zoom in/out</li><li>Hold the CTRL key down and use the + and - keys on keyboard to zoom in/out</li></ul>",
+            "description": "This button can be used to change the zoom level of the top application (i.e.: Microsoft Edge, Google Chrome, etc)."
         },
         "gpii_app_qss_settings_common-language": {
             "tooltip": "<p>Change Language of Menus & Ribbons.</p><p>Works in Windows, Edge, Office and other programs with language packs installed.</p>",
             "title": "Language of Menus",
             "tip": "<p>Change Language of Menus/Ribbons</p><p>Works in Windows, and other apps that support Windows language settings.</p><ul><li>Does not translate documents etc.</li><li>You may need to restart some apps to see change.</li></ul>",
-            "sidecar": "<p>The language choices in the list are the Microsoft languages approved by your IT department for this site.</p><p>To add another language to the list - see your IT department.</p><p>(On personal and home machines - a SETUP Tool will be available to select the languages for you computer)</p>"
+            "sidecar": "<p>The language choices in the list are the Microsoft languages approved by your IT department for this site.</p><p>To add another language to the list - see your IT department.</p><p>(On personal and home machines - a SETUP Tool will be available to select the languages for you computer)</p>",
+            "description": "This button allows you to change the system of the operating language."
         },
         "gpii_app_qss_settings_usb-open": {
             "tooltip": "<p>Open and safely Eject all USB flash drives plugged into the computer.</p>",
             "title": "Open & Eject USB",
             "tip": "<p>Your USB Drive</p><p>Insert a USB drive and open it with the button below.</p>",
             "footerTip": "<p>When you are done, prevent data loss by ejecting USB drives safely.</p><ol><li>Close all documents opened from the USB drive and</li><li>Then use the button below to safely eject the USB drives</li></ol>",
-            "sidecar": "<p>On this menu you can open all of the USB drives plugged into your computer with one click.</p><p>When you are done with your USB drives, use this menu again to eject your drives safely. This will help keep your data safe.</p>"
+            "sidecar": "<p>On this menu you can open all of the USB drives plugged into your computer with one click.</p><p>When you are done with your USB drives, use this menu again to eject your drives safely. This will help keep your data safe.</p>",
+            "description": "This button provides an easy a quick way to open and safely eject all USB drives plugged into the computer."
         },
         "gpii_app_qss_settings_screenCapture": {
             "tooltip": "<p>Screen Capture.</p><p>Take pictures of all or part of the screen.</p>",
@@ -537,11 +575,13 @@
                 "Make COPY to PASTE into doc, email, etc.",
                 "Take PICTURE and save to desktop"
             ],
-            "sidecar": "<p>This Screen capture tool uses the open source software ShareX to capture settings with high precision.</p><p>ShareX has many other features available. Open ShareX by pressing the Windows key and typing <b>ShareX</b>.</p><p>Microsoft also has a built in screen capture tool called Snipping Tool that you can call up  by pressing <b>WinKey+Shift+S</b>.</p>"
+            "sidecar": "<p>This Screen capture tool uses the open source software ShareX to capture settings with high precision.</p><p>ShareX has many other features available. Open ShareX by pressing the Windows key and typing <b>ShareX</b>.</p><p>Microsoft also has a built in screen capture tool called Snipping Tool that you can call up  by pressing <b>WinKey+Shift+S</b>.</p>",
+            "description": "Make a screen capture with ShareX. Note that ShareX needs to be installed on the computer for this button to work."
         },
         "gpii_app_qss_settings_cloud-folder-open": {
             "tooltip": "<p>The Quick Folder has commonly requested documents, web pages, and other resources.</p>",
-            "title": "Open Quick Folder"
+            "title": "Open Quick Folder",
+            "description": "Use this button to open the Morphic pre-defined Cloud Folder."
         },
         "gpii_app_qss_settings_officeSimplification": {
             "tooltip": "<p>Microsoft Word simplification.</p><p>Provides simpler menus for Microsoft Word</p>",
@@ -551,29 +591,34 @@
                 "Basic (Morphic)",
                 "Essentials (Morphic)"
             ],
-            "sidecar": "<p>You can also create your own custom Microsoft Word Ribbons on your own computer.</p><p>To create a customized ribbon right click on the right edge of the ribbon bar and select “Customize Ribbons”. Further instructions are available on the <a href='https://support.office.com/en-us/article/customize-the-ribbon-in-office-00f24ca7-6021-48d3-9514-a31a460ecb31'>Microsoft Office support site</a>.</p><p>NOTE: User customized ribbons are not currently captured and saved by Morphic.</p>"
+            "sidecar": "<p>You can also create your own custom Microsoft Word Ribbons on your own computer.</p><p>To create a customized ribbon right click on the right edge of the ribbon bar and select “Customize Ribbons”. Further instructions are available on the <a href='https://support.office.com/en-us/article/customize-the-ribbon-in-office-00f24ca7-6021-48d3-9514-a31a460ecb31'>Microsoft Office support site</a>.</p><p>NOTE: User customized ribbons are not currently captured and saved by Morphic.</p>",
+            "description": "This button allows you to add simple ribbons to Microsoft Word."
         },
         "gpii_app_qss_settings_common-volume": {
             "tooltip": "<p>Adjusts Windows Volume and provides Mute on/off.</p>",
             "title": "Volume & Mute",
             "tip": "<p>Volume and Mute</p>",
             "switchTitle": "Mute all audio",
-            "sidecar": "<p>A quicker and easier way to change the volume is to just click on the speaker icon on the system tray (near the clock at the bottom of the screen).</p><img src='../../assets/volumeMute.png' alt='volumeMute' class='full'>"
+            "sidecar": "<p>A quicker and easier way to change the volume is to just click on the speaker icon on the system tray (near the clock at the bottom of the screen).</p><img src='../../assets/volumeMute.png' alt='volumeMute' class='full'>",
+            "description": "This button provides a quick and easy way to change the system volume."
         },
         "gpii_app_qss_settings_launch-documorph": {
             "tooltip": "<p>Converts documents into more accessible forms.</p>",
-            "title": "Docu- Morph"
+            "title": "Docu- Morph",
+            "description": "Use this button to open DocuMorph, that allows you to convert documents into more accessible forms. DocuMorph usually comes pre-installed with Morphic."
         },
         "gpii_app_qss_settings_translate-tools": {
             "tooltip": "<p>Tools to translate text, documents, web pages, or live speech.</p>",
             "title": "Translate Tools",
-            "tip": "<p>Translate Tools</p>To translate <b>text, documents, web pages</b> or <b>live speech</b>, try one of the following free services or apps.<br /><br /><i>Links are for convenience. No endorsement or privacy guarantee.</i><br /><br /><b>Microsoft Word 365</b> has a Translator in its <b>Review</b> ribbon<br /><br /><b>Web based & Apps</b><br /><ul><li><a href='https://translate.google.com/' class=\"fl-focusable\">Google</a>  - <b>Web, Text, Docs</b></li><li><a href='https://www.bing.com/translator' class=\"fl-focusable\">Microsoft Bing</a>  - <b>Web, Text</b></li><li><a href='http://www.online-translator.com/' class=\"fl-focusable\">PROMT</a>  - <b>Web</b></li><li><a href='http://www.reverso.net/text_translation.aspx' class=\"fl-focusable\">Reverso</a>  - <b>Web</b></li><li><a href='https://www.translatelive.com/' class=\"fl-focusable\">Translate Live</a>  - <b>Live Speech</b></li><li><a href='https://www.microsoft.com/en-us/translator/' class=\"fl-focusable\">Microsoft Translator APP</a>  - <b>Web, Text, Live Speech, StreetSigns</b></li></ul><br /><b>NOTE:</b> There are also plug-ins and built-in translation features for different browsers."
+            "tip": "<p>Translate Tools</p>To translate <b>text, documents, web pages</b> or <b>live speech</b>, try one of the following free services or apps.<br /><br /><i>Links are for convenience. No endorsement or privacy guarantee.</i><br /><br /><b>Microsoft Word 365</b> has a Translator in its <b>Review</b> ribbon<br /><br /><b>Web based & Apps</b><br /><ul><li><a href='https://translate.google.com/' class=\"fl-focusable\">Google</a>  - <b>Web, Text, Docs</b></li><li><a href='https://www.bing.com/translator' class=\"fl-focusable\">Microsoft Bing</a>  - <b>Web, Text</b></li><li><a href='http://www.online-translator.com/' class=\"fl-focusable\">PROMT</a>  - <b>Web</b></li><li><a href='http://www.reverso.net/text_translation.aspx' class=\"fl-focusable\">Reverso</a>  - <b>Web</b></li><li><a href='https://www.translatelive.com/' class=\"fl-focusable\">Translate Live</a>  - <b>Live Speech</b></li><li><a href='https://www.microsoft.com/en-us/translator/' class=\"fl-focusable\">Microsoft Translator APP</a>  - <b>Web, Text, Live Speech, StreetSigns</b></li></ul><br /><b>NOTE:</b> There are also plug-ins and built-in translation features for different browsers.",
+            "description": "This button includes a list of external resources that you can use to translate from one language into another."
         },
         "gpii_app_qss_settings_common-mouse": {
             "tooltip": "<p>Change Windows Mouse setting.</p><p>Works in all applications.</p>",
             "title": "Adjust Mouse",
             "tip": "<p>Adjust Mouse</p>",
-            "sidecarWithSettings": "<p>We have provided some of the most commonly used Windows Mouse settings here.</p><p>Microsoft also provides other mouse settings. The following links will  take you directly to the key additional Mouse settings in the Windows Setting screens.</p><ul><li><a href='ms-settings:mousetouchpad'>Mouse button and scroll modes</a></li><li><a href='ms-settings:easeofaccess-mouse'>Mouse Keys</a></li><li><a href='ms-settings:devices-touchpad'>Touchpad sensitivity</a> (if your computer has a touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Cursor and pointer size, color, and touch feedback</a></li></ul>"
+            "sidecarWithSettings": "<p>We have provided some of the most commonly used Windows Mouse settings here.</p><p>Microsoft also provides other mouse settings. The following links will  take you directly to the key additional Mouse settings in the Windows Setting screens.</p><ul><li><a href='ms-settings:mousetouchpad'>Mouse button and scroll modes</a></li><li><a href='ms-settings:easeofaccess-mouse'>Mouse Keys</a></li><li><a href='ms-settings:devices-touchpad'>Touchpad sensitivity</a> (if your computer has a touchpad)</li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Cursor and pointer size, color, and touch feedback</a></li></ul>",
+            "description": "Use this button to change some settings related to the mouse such as the pointer size."
         },
         "gpii_app_qss_settings_windows-swapMouseButtons": {
             "title": "Swap mouse buttons"
@@ -589,23 +634,28 @@
         },
         "gpii_app_qss_settings_url-google-drive": {
             "tooltip": "<p>Opens Google Drive in the browser.</p>",
-            "title": "My Google Drive"
+            "title": "My Google Drive",
+            "description": "A button that opens Google Drive in your web browser."
         },
         "gpii_app_qss_settings_url-one-drive": {
             "tooltip": "<p>Opens One Drive in the browser.</p>",
-            "title": "My One Drive"
+            "title": "My One Drive",
+            "description": "A button that opens One Drive in your web browser."
         },
         "gpii_app_qss_settings_url-dropbox": {
             "tooltip": "<p>Opens Dropbox in the browser.</p>",
-            "title": "My Dropbox"
+            "title": "My Dropbox",
+            "description": "A button that opens Dropbox in your web browser."
         },
         "gpii_app_qss_settings_snipping-tool": {
             "tooltip": "<p>Start the Windows Snipping Tool.</p>",
-            "title": "Screen Snip"
+            "title": "Screen Snip",
+            "description": "This button provides an easy way to take screenshots with the Windows Snipping Tool."
         },
         "gpii_app_qss_settings_url-customize-qss": {
             "tooltip": "<p>Open the web tool to customize quickstrip's buttons.</p>",
-            "title": "Customize Quickstrip"
+            "title": "Customize Quickstrip",
+            "description": "A button that takes you to the user interface to configure the Morphic QuickStrip and more."
         },
         "gpii_app_qss_settings_common-colorVision": {
             "tooltip": "<p>Change the colors displayed on the screen to make things easier to view or distinguish.</p>",
@@ -618,7 +668,43 @@
                 "Red-Green (Red weak)",
                 "Blue-Yellow (Tritanomaly)"
             ],
-            "sidecarWithSettings": "<p>In addition to the Windows color vision options presented in the panel to the left, there are also several grayscale options provided in Windows setting.</p><p>Here is the link to take you directly to the full set of Color Vision Options in Windows Settings:</p><ul><li><a href='ms-settings:easeofaccess-colorfilter'>Color Vision Settings</a></li></ul>"
+            "sidecarWithSettings": "<p>In addition to the Windows color vision options presented in the panel to the left, there are also several grayscale options provided in Windows setting.</p><p>Here is the link to take you directly to the full set of Color Vision Options in Windows Settings:</p><ul><li><a href='ms-settings:easeofaccess-colorfilter'>Color Vision Settings</a></li></ul>",
+            "description": "This button provides an easy way to enable/disable the Microsoft Windows available color filters. These are useful to make things easier to view or distinguish."
+        },
+        "gpii_app_qss_settings_morphic-userSettings": {
+            "tooltip": "<p>Change the Morphic QuickStrip user settings</p>",
+            "title": "Morphic User Settings",
+            "tip": "<p>Morphic User Settings</p><p>Change the look and feel of the Morphic Quickstrip.</p>",
+            "footerTip": "<p><b>More Morphic settings</b><p>",
+            "sidecar": "<h2>Title to be described</h2><p>Text to be described</p><p>Note that you can provide <b>HTML <i>Markup</i></b> here. Look at <i>messageBundles/gpii-app-qss-settings_en.json</i> to see some examples of the <i>sidecar</i> or <i>sidecarWithSettings</i> blocks.",
+            "description": "This buttons allow you to change some settings of Morphic."
+        },
+        "gpii_app_qss_settings_morphic-alwaysUseChrome": {
+            "title": "Always open links on Google Chrome"
+        },
+        "gpii_app_qss_settings_morphic-appBarQss": {
+            "title": "QuickStrip as application bar"
+        },
+        "gpii_app_qss_settings_morphic-closeQssOnClickOutside": {
+            "title": "Hide on click outside"
+        },
+        "gpii_app_qss_settings_morphic-disableRestartWarning": {
+            "title": "Do not notify me when an application needs to restart"
+        },
+        "gpii_app_qss_settings_morphic-tooltipDisplayDelay": {
+            "title": "Tooltip show delay"
+        },
+        "gpii_app_qss_settings_morphic-separator": {
+            "description": "Invisible button separator"
+        },
+        "gpii_app_qss_settings_morphic-separator-visible": {
+            "description": "Visible button separator"
+        },
+        "gpii_app_qss_settings_morphic-grid": {
+            "description": "Invisible button grid"
+        },
+        "gpii_app_qss_settings_morphic-grid-visible": {
+            "description": "Visible button grid"
         },
         "gpii_userErrors_EADDRINUSE-title": "Morphic can't start",
         "gpii_userErrors_EADDRINUSE-subhead": "There is another application listening on the same port",
