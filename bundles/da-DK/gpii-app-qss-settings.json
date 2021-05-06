@@ -23,13 +23,15 @@
     },
     "gpii_app_qss_settings_more": {
         "tooltip": "<p>Flere muligheder for \u00e6ndring af ops\u00e6tninger p\u00e5 denne computer.<\/p>",
-        "title": "MERE...\n\n(& HJ\u00c6LP)"
+        "title": "Flere taster (& Hj\u00e6lp)"
     },
     "gpii_app_qss_settings_common-selfVoicing-enabled": {
         "tooltip": "<p>Sl\u00e5 \u201cV\u00e6lg opl\u00e6sning\u201d udvidelsen i Chrome browser til\/fra.<\/p>",
         "title": "Chrome opl\u00e6ser",
         "tip": "<p>T\u00e6nder og justerer opl\u00e6sning i Chrome<\/p>",
         "extendedTip": "<p>For at bruge op-\/h\u00f8jtl\u00e6sning<\/p><ol><li>\u00c5ben en webside i Chrome <img height=12 src='..\/..\/icons\/chrome.svg'><\/li><li>V\u00e6lg\/Marker tekst<\/li><li>Klik p\u00e5 afspil knappen der popper op<\/li><\/ol>",
+        "sidecar": "<p>I denne menu kan du aktivere funktionen L\u00e6s h\u00f8jt, der er installeret i<b>Chrome-browseren<\/b>. N\u00e5r L\u00e6s h\u00f8jt er sl\u00e5et til:<\/p><ol><li> V\u00e6lg \/ fremh\u00e6v tekst i Chrome<\/li><li>Klik p\u00e5 knappen Afspil, der dukker op<\/li><\/ol><p>BEM\u00c6RK: n\u00e5r du t\u00e6nder f\u00f8rst for at l\u00e6se h\u00f8jt, skal du muligvis opdatere \u00e5bne sider f\u00f8rst.<\/p><p><b>Microsoft Edge<\/b>-browseren har ogs\u00e5 en l\u00e6se h\u00f8jt-tilstand. Det er altid t\u00e6ndt. S\u00e5dan bruges det:<\/p><ol><li>\u00c5bn Edge-browseren<\/li><li>H\u00f8jreklik p\u00e5 en webside og v\u00e6lg \"L\u00e6s h\u00f8jt\" i menuen<\/li><\/ol><p>En L\u00e6s h\u00f8jt v\u00e6rkt\u00f8jslinje vises i Edge, hvor du kan styre l\u00e6sningen.<\/p><p>Microsoft Word og OneNote har ogs\u00e5 l\u00e6st h\u00f8jt funktioner. Du kan <a href='https:\/\/morphic.world\/basics\/learn-more-about-quickstrip#readaloud'> l\u00e6re mere om l\u00e6sning<\/a>p\u00e5 den morfiske vidensbase.<\/p>",
+        "description": "Use this button to enable\/disable the Read Aloud functionality from UIO+ for Google Chrome. Note that UIO+ for Google Chrome comes pre-installed with Morphic.",
         "sideCar": "<p> I denne menu kan du aktivere funktionen L\u00e6s h\u00f8jt, der er installeret i <b> Chrome-browseren <\/b>. N\u00e5r L\u00e6s h\u00f8jt er sl\u00e5et til: <\/p> <ol> <li> Marker \/ fremh\u00e6v tekst i Chrome <\/li> <li> Klik p\u00e5 knappen Afspil, der dukker op <\/li> <\/ol> <p> BEM\u00c6RK: n\u00e5r du t\u00e6nder f\u00f8rste gang for at l\u00e6se h\u00f8jt, skal du muligvis opdatere \u00e5bne sider f\u00f8rst. <\/p> <p> <b> Microsoft Edge <\/b> -browseren har ogs\u00e5 en l\u00e6se h\u00f8jt-tilstand. Det er altid t\u00e6ndt. S\u00e5dan bruges det: <\/p> <ol> <li> \u00c5bn Edge-browseren <\/li> <li> H\u00f8jreklik p\u00e5 en webside og v\u00e6lg \"L\u00e6s h\u00f8jt\" i menuen <\/li> <\/ol> <p> En \"L\u00e6s h\u00f8jt\" v\u00e6rkt\u00f8jslinje vises i Edge, hvor du kan styre l\u00e6sningen. <\/p> <p> Microsoft Word og OneNote har ogs\u00e5 l\u00e6st h\u00f8jt funktioner. Du kan p\u00e5<a href='https:\/\/morphic.zendesk.com\/hc\/en-us\/articles\/360030418393-Chrome-Read-Aloud'> l\u00e6re mere om h\u00f8jtl\u00e6sning <\/a> p\u00e5 den morfiske vidensbase. <\/p>"
     },
     "gpii_app_qss_settings_common-highContrastTheme": {
@@ -45,6 +47,9 @@
             "Gr\u00e5 p\u00e5 hvid",
             "Sort p\u00e5 brun"
         ],
+        "sidecar": "<p>I denne menu kan du skifte til lystilstand, m\u00f8rk tilstand eller en r\u00e6kke valg med h\u00f8j og lav kontrast.<\/p><p>ikke alle applikationer underst\u00f8tter alle indstillinger. Du skal muligvis ogs\u00e5 genstarte nogle applikationer for at se en effekt<\/p>",
+        "sidecarWithSettings": "<p>I denne menu kan du skifte til lystilstand, m\u00f8rk tilstand eller en r\u00e6kke valg med h\u00f8j og lav kontrast.<\/p><p>Ikke alle applikationer underst\u00f8tter alle indstillinger. Du skal muligvis ogs\u00e5 genstarte nogle applikationer for at se en effekt.<\/p><p>Her er links, der f\u00f8rer dig direkte til det fulde s\u00e6t kontrastv\u00e6rkt\u00f8jer i Windows-indstillinger:<\/p><ul><li><a href = '<a href='ms-settings:colors'>'> Windows farveindstillinger<\/a> - skift farvetilstand og accentfarver<\/li><li><a href='ms-settings:easeofaccess-highcontrast'> Windows High contrast Settings<\/a> - tilpas farver til h\u00f8j kontrasttilstand<\/li><\/ul><p>BEM\u00c6RK: Kun indstillingerne for h\u00f8j eller lav kontrast til venstre fungerer i Chrome.<\/p><p>BEM\u00c6RK: I \u00f8jeblikket morfisk gemmer kun kontrastindstillingerne p\u00e5 listen til venstre.<\/p>",
+        "description": "This button provides an easy way to switch between the different High Contrast Themes that are available in the system.",
         "sideCar": "<p> I denne menu kan du skifte til lys tilstand, m\u00f8rk tilstand eller en r\u00e6kke forskellige valg med h\u00f8j og lav kontrast. <\/p> <p> Ikke alle applikationer underst\u00f8tter alle indstillinger. Du skal muligvis ogs\u00e5 genstarte nogle applikationer for at se en effekt. <\/p>",
         "sideCarWithSettings": "<p>I denne menu kan du skifte til lys tilstand, m\u00f8rk tilstand eller en r\u00e6kke forskellige valg med h\u00f8j og lav kontrast.<\/p><p>Ikke alle applikationer underst\u00f8tter alle indstillinger. Du skal muligvis ogs\u00e5 genstarte nogle applikationer for at se en effekt.<\/p><p>Her er links, der f\u00f8rer dig direkte til det fulde s\u00e6t kontrastv\u00e6rkt\u00f8jer i Windows-indstillinger:<\/p><ul><li><a href='ms-settings:colors'>Windows Color Settings<\/a> - skift farvetilstand og accentfarver<\/li><li><a href='ms-settings:easeofaccess-highcontrast'>Indstillinger, \u00d8get tilg\u00e6ngelighed, Brug stor kontrast<\/a> - tilpas farver til h\u00f8j kontrasttilstand<\/li><\/ul><p>BEM\u00c6RK: Kun indstillingerne for h\u00f8j eller lav kontrast til venstre fungerer i Chrome.<\/p><p>BEM\u00c6RK: I \u00f8jeblikket gemmer Morphic kun kontrastindstillingerne p\u00e5 listen til venstre.<\/p>"
     },
@@ -53,6 +58,8 @@
         "title": "Sk\u00e6rm Zoom",
         "tip": "<p>Zoomer alt p\u00e5 sk\u00e6rmen<\/p> <p>Zoomm\u00e6ngden op og ned er forskellig fra computer til computer.<\/p>",
         "footerTip": "",
+        "sidecarWithSettings": "<p>Sk\u00e6rmzoom bruger funktionen Windows sk\u00e6rmskala til at lade dig g\u00f8re ting st\u00f8rre eller mindre p\u00e5 sk\u00e6rmen, s\u00e5 de passer til dine pr\u00e6ferencer.<\/p><p>Windows giver ogs\u00e5 andre m\u00e5der at \u00e6ndre sk\u00e6rmst\u00f8rrelsen eller zoome dele af gr\u00e6nsefladen p\u00e5. Brug disse links til at g\u00e5 til de relevante steder i Windows-indstillinger:<\/p><ul><li><a href='ms-settings:display'>Sk\u00e6rmindstillinger<\/a><\/li><li><a href='ms-settings:display-advanced'>Advanced display settings<\/a>(kun tilg\u00e6ngelig p\u00e5 enheder, der underst\u00f8tter avancerede indstillinger)<\/li><li><a href='ms-settings:easeofaccess-display'> Nem adgang til visningsindstillinger<\/a><\/li><\/ul>",
+        "description": "This button allows the user to make everything on the screen larger or smaller.",
         "sideCarWithSettings": "<p>Sk\u00e6rmzoom bruger funktionen Windows sk\u00e6rmskala til at lade dig g\u00f8re ting st\u00f8rre eller mindre p\u00e5 sk\u00e6rmen, s\u00e5 de passer til dine pr\u00e6ferencer.<\/p><p>Windows giver ogs\u00e5 andre m\u00e5der at \u00e6ndre sk\u00e6rmst\u00f8rrelsen eller zoome dele af gr\u00e6nsefladen p\u00e5. Brug disse links til at g\u00e5 til de relevante steder i Windows-indstillinger:<\/p><ul><li><a href='ms-settings:display'>>Sk\u00e6rmindstillinger<\/a><\/li><li><a href='ms-settings:display-advanced'>Avancerede sk\u00e6rmindstillinger<\/a>(kun tilg\u00e6ngelig p\u00e5 enheder, der underst\u00f8tter avancerede indstillinger)<\/li><li><a href='ms-settings:easeofaccess-display'> Nem adgang til visningsindstillinger<\/a><\/li><\/ul>"
     },
     "gpii_app_qss_settings_appTextZoom": {
@@ -60,12 +67,16 @@
         "title": "Zoom det forreste vindue",
         "tip": "<p>Zoom det forreste vindue<\/p><p>Bem\u00e6rk: Ikke alle vinduer kan zoomes.<\/p>",
         "footerTip": "<a href=\"https:\/\/morphic.world\/basics\/learn-more-about-quickstrip#textzoom\">Vil du have en hurtigere m\u00e5de at zoome et vindue p\u00e5?<\/a>",
+        "sidecar": "<p>Knapperne \"Topvinduets zoom\" er tilg\u00e6ngelige for at g\u00f8re det nemt at zoome ind i mange Windows-applikationer.<\/p><p>Men der er endnu hurtigere m\u00e5der at g\u00f8re dette p\u00e5, der slet ikke kr\u00e6ver, at du \u00e5bner QuickStrip . Igen fungerer de ikke i alle applikationer, men de fungerer i mange.<\/p><ul><li>Du kan holde CTRL nede og bruge rullehjulet p\u00e5 musen til at zoome ind \/ ud<\/li><li>Hold CTRL-tasten ned og brug + og - tasterne p\u00e5 tastaturet til at zoome ind \/ ud<\/li><\/ul>",
+        "description": "This button can be used to change the zoom level of the top application (i.e.: Microsoft Edge, Google Chrome, etc).",
         "sideCar": "<p>\u201cForreste vindue Zoom\u201d er knapper, der g\u00f8r det nemt at zoome ind i mange Windows-applikationer.<\/p><p>Men der er endnu hurtigere m\u00e5der at g\u00f8re dette p\u00e5, der slet ikke kr\u00e6ver, at du \u00e5bner QuickStrip. Igen fungerer de ikke i alle applikationer, men de fungerer i mange.<\/p><ul><li>Du kan holde CTRL nede og bruge hjulet p\u00e5 musen til at zoome ind\/ud<\/li><li>\nHold CTRL-tasten nede, og brug + og - tasterne p\u00e5 tastaturet til at zoome ind\/ud<\/li><\/ul>"
     },
     "gpii_app_qss_settings_common-language": {
         "tooltip": "<p>Skift sprog i menuer og b\u00e5nd.<\/p><p>Fungerer i Windows, Edge, Office og andre programmer med sprogpakker installeret.<\/p>",
         "title": "Menusprog",
         "tip": "<p>Skift menusprog\/-b\u00e5nd<\/p><p>Fungere i Windows og andre apps der underst\u00f8tter Windows sprog indstillinger.<\/p><ul><li>Det overs\u00e6tter ikke dokumenter etc.<\/li><li>Du skal m\u00e5ske genstarte nogle apps for at se \u00e6ndringer.<\/li><\/ul>",
+        "sidecar": "<p>Sprogvalgene p\u00e5 listen er de Microsoft-sprog, der er godkendt af din it-afdeling til dette websted.<\/p><p>For at tilf\u00f8je et andet sprog til listen - se din it-afdeling.<\/p><p>( P\u00e5 personlige maskiner og hjemmemaskiner - et SETUP-v\u00e6rkt\u00f8j vil v\u00e6re tilg\u00e6ngeligt til at v\u00e6lge sprog til din computer)<\/p>",
+        "description": "This button allows you to change the system of the operating language.",
         "sideCar": "<p>Sprogvalgene p\u00e5 listen er de Microsoft-sprog, der er godkendt af din it-afdeling til dette websted.<\/p><p> For at tilf\u00f8je et andet sprog til listen - sp\u00f8rg din it-afdeling.<\/p><p>(P\u00e5 personlige og hjemmemaskiner - vil et SETUP-v\u00e6rkt\u00f8j v\u00e6re tilg\u00e6ngeligt til at v\u00e6lge sprog til din computer)<\/p>"
     },
     "gpii_app_qss_settings_usb-open": {
@@ -73,6 +84,8 @@
         "title": "\u00c5bn & fjern USB",
         "tip": "<p>Dit USB-drev<\/p><p>Inds\u00e6t et USB-drev og \u00e5ben det med knappen herunder.<\/p>",
         "footerTip": "<p>N\u00e5r du er f\u00e6rdig, skal du forhindre tab af data ved at skubbe USB-drev ud sikkert.<\/p><ol><li>Luk alle dokumenter lukket fra USB-drevet og<\/li><li>brug knappen herunder for at fjerne USB-drev sikkert<\/li><\/ol>",
+        "sidecar": "<p>I denne menu kan du \u00e5bne alle USB-drev, der er tilsluttet din computer med et enkelt klik.<\/p><p>N\u00e5r du er f\u00e6rdig med dine USB-drev, skal du bruge denne menu igen til at skubbe dine drev ud sikkert. Dette hj\u00e6lper med at beskytte dine data.<\/p>",
+        "description": "This button provides an easy a quick way to open and safely eject all USB drives plugged into the computer.",
         "sideCar": "<p>I denne menu kan du \u00e5bne alle USB-drev, der er tilsluttet din computer med et enkelt klik.<\/p><p>N\u00e5r du er f\u00e6rdig med dine USB-drev, skal du bruge denne menu igen til at skubbe dine drev ud sikkert. Dette hj\u00e6lper med at beskytte dine data.<\/p>"
     },
     "gpii_app_qss_settings_screenCapture": {
@@ -83,11 +96,14 @@
             "Tag en KOPI og INDS\u00c6T ind i dokument, e-mail osv.",
             "Tag et BILLEDE, og gem p\u00e5 skrivebordet"
         ],
+        "sidecar": "<p>Dette sk\u00e6rmoptagelsesv\u00e6rkt\u00f8j bruger open source-softwaren ShareX til at indfange indstillinger med h\u00f8j pr\u00e6cision.<\/p><p>ShareX har mange andre tilg\u00e6ngelige funktioner. \u00c5bn ShareX ved at trykke p\u00e5 Windows-tasten og skrive<b>ShareX<\/b><\/p><p>Microsoft har ogs\u00e5 et indbygget sk\u00e6rmoptagelsesv\u00e6rkt\u00f8j kaldet Snipping Tool, som du kan kalde op ved at trykke p\u00e5 <b> WinKey + Shift + S<\/b><\/p>",
+        "description": "Make a screen capture with ShareX. Note that ShareX needs to be installed on the computer for this button to work.",
         "sideCar": "<p>Dette sk\u00e6rmoptagelsesv\u00e6rkt\u00f8j bruger open source-softwaren ShareX til at indfange indstillinger med h\u00f8j pr\u00e6cision.<\/p><p>ShareX har mange andre tilg\u00e6ngelige funktioner. \u00c5bn ShareX ved at trykke p\u00e5 Windows-tasten og skrive<b>ShareX<\/b>.<\/p> <p> Microsoft har ogs\u00e5 et indbygget sk\u00e6rmoptagelsesv\u00e6rkt\u00f8j kaldet \"Snipping Tool\", som du kan kalde op ved at trykke<b>Winowsknappen + Shift + S<\/b>.<\/p>"
     },
     "gpii_app_qss_settings_cloud-folder-open": {
         "tooltip": "<p>Hurtigmappen giver adgang til ofte brugte dokumenter, websider og andre ressourcer.<\/p>",
-        "title": "\u00c5ben Hurtigmappen"
+        "title": "\u00c5ben Hurtigmappen",
+        "description": "Use this button to open the Morphic pre-defined Cloud Folder."
     },
     "gpii_app_qss_settings_officeSimplification": {
         "tooltip": "<p> Microsoft Word-forenkling. <\/p> <p> Giver enklere menuer til Microsoft Word <\/p>",
@@ -97,6 +113,8 @@
             "Grundl\u00e6ggende (Morphic)",
             "V\u00e6sentlige (Morphic)"
         ],
+        "sidecar": "<p>Du kan ogs\u00e5 oprette dine egne brugerdefinerede Microsoft Word-b\u00e5nd p\u00e5 din egen computer.<\/p><p>For at oprette et tilpasset b\u00e5nd skal du h\u00f8jreklikke p\u00e5 h\u00f8jre kant af b\u00e5ndlinjen og v\u00e6lge \"Tilpas b\u00e5nd\". Yderligere instruktioner er tilg\u00e6ngelige p\u00e5 <a href='https:\/\/support.office.com\/en-us\/article\/customize-the-ribbon-in-office-00f24ca7-6021-48d3-9514-a31a460ecb31'>Microsoft Office supportwebsted<\/a><\/p><p>BEM\u00c6RK: Brugerdefinerede b\u00e5nd fanges ikke og gemmes i \u00f8jeblikket af Morphic.<\/p>",
+        "description": "This button allows you to add simple ribbons to Microsoft Word.",
         "sideCar": "<p>Du kan ogs\u00e5 oprette dine egne brugerdefinerede Microsoft Word-b\u00e5nd p\u00e5 din egen computer. <\/p> <p> For at oprette et tilpasset b\u00e5nd skal du h\u00f8jreklikke p\u00e5 h\u00f8jre kant af b\u00e5ndlinjen og v\u00e6lge \"Tilpas b\u00e5nd\". Yderligere instruktioner er tilg\u00e6ngelige p\u00e5 <a href='https:\/\/support.office.com\/en-us\/article\/customize-the-ribbon-in-office-00f24ca7-6021-48d3-9514-a31a460ecb31'> Microsoft Office supportwebsted <\/a>. <\/p> <p> BEM\u00c6RK: Brugerdefinerede b\u00e5nd gemmes i \u00f8jeblikket ikke af Morphic. <\/p>"
     },
     "gpii_app_qss_settings_common-volume": {
@@ -104,21 +122,27 @@
         "title": "Lydstyrke og lydl\u00f8s",
         "tip": "<p>Lydstyrke og lydl\u00f8s<\/p>",
         "switchTitle": "Sl\u00e5 al lyd fra",
+        "sidecar": "<p>En hurtigere og nemmere m\u00e5de at \u00e6ndre lydstyrken p\u00e5 er at klikke p\u00e5 h\u00f8jttalerikonet p\u00e5 systembakken (n\u00e6r uret i bunden af \u200b\u200bsk\u00e6rmen).<\/p><img src='..\/..\/assets\/volumeMute.png' alt='volumeMute' class='full'>",
+        "description": "This button provides a quick and easy way to change the system volume.",
         "sideCar": "<p> En hurtigere og nemmere m\u00e5de at \u00e6ndre lydstyrken p\u00e5 er at klikke p\u00e5 h\u00f8jttalerikonet p\u00e5 systembakken (n\u00e6r uret i bunden af \u200b\u200bsk\u00e6rmen).<\/p><img src='..\/..\/assets\/volumeMute.png' alt='volumeMute' class='full'>"
     },
     "gpii_app_qss_settings_launch-documorph": {
         "tooltip": "<p> Konverterer dokumenter til mere tilg\u00e6ngelige formularer. <\/p>",
-        "title": "Docu- Morph"
+        "title": "Docu- Morph",
+        "description": "Use this button to open DocuMorph, that allows you to convert documents into more accessible forms. DocuMorph usually comes pre-installed with Morphic."
     },
     "gpii_app_qss_settings_translate-tools": {
         "tooltip": "<p> V\u00e6rkt\u00f8jer til at overs\u00e6tte tekst, dokumenter, websider eller live tale. <\/p>",
         "title": "Overs\u00e6ttelses v\u00e6rkt\u00f8jer",
-        "tip": "<p>Overs\u00e6tningsv\u00e6rkt\u00f8jer<\/p>Hvis du vil overs\u00e6tte  <b>tekst, dokumenter, web sider<\/b> eller <b>tale<\/b>, kan du pr\u00f8ve en af \u200b\u200bf\u00f8lgende gratis tjenester eller apps.<br \/><br \/><i>Links er for nemheds skyld. Ingen p\u00e5tegning eller privatlivsgaranti.<\/i><br \/><br \/><b>Microsoft Word 365<\/b> har en overs\u00e6tter i sit <b>Gennemgangs<\/b> b\u00e5nd<br \/><br \/><b>Web baseret & Apps<\/b><br \/><ul><li><a href='https:\/\/translate.google.com\/' class=\"fl-focusable\">Google<\/a> - <b>Web, tekst, dokumenter<\/b><\/li><li><a href='https:\/\/www.bing.com\/translator' class=\"fl-focusable\">Microsoft Bing<\/a> - <b>Web, tekst<\/b><\/li><li><a href='http:\/\/www.online-translator.com\/' class=\"fl-focusable\">PROMT<\/a> - <b>Web<\/b><\/li><li><a href='http:\/\/www.reverso.net\/text_translation.aspx' class=\"fl-focusable\">Reverso<\/a> - <b>Web<\/b><\/li><li><a href='https:\/\/www.translatelive.com\/' class=\"fl-focusable\">Overs\u00e6t Live<\/a> - <b>Live tale<\/b><\/li><li><a href='https:\/\/www.microsoft.com\/en-us\/translator\/' class=\"fl-focusable\">Microsoft Translator APP<\/a> - <b>Web, tekst, live tale, StreetSigns<\/b><\/li><\/ul><br \/><b>BEM\u00c6RK:<\/b> Der er ogs\u00e5 plug-ins og indbyggede overs\u00e6ttelsesfunktioner til forskellige browsere."
+        "tip": "<p>Overs\u00e6tningsv\u00e6rkt\u00f8jer<\/p>Hvis du vil overs\u00e6tte  <b>tekst, dokumenter, web sider<\/b> eller <b>tale<\/b>, kan du pr\u00f8ve en af \u200b\u200bf\u00f8lgende gratis tjenester eller apps.<br \/><br \/><i>Links er for nemheds skyld. Ingen p\u00e5tegning eller privatlivsgaranti.<\/i><br \/><br \/><b>Microsoft Word 365<\/b> har en overs\u00e6tter i sit <b>Gennemgangs<\/b> b\u00e5nd<br \/><br \/><b>Web baseret & Apps<\/b><br \/><ul><li><a href='https:\/\/translate.google.com\/' class=\"fl-focusable\">Google<\/a> - <b>Web, tekst, dokumenter<\/b><\/li><li><a href='https:\/\/www.bing.com\/translator' class=\"fl-focusable\">Microsoft Bing<\/a> - <b>Web, tekst<\/b><\/li><li><a href='http:\/\/www.online-translator.com\/' class=\"fl-focusable\">PROMT<\/a> - <b>Web<\/b><\/li><li><a href='http:\/\/www.reverso.net\/text_translation.aspx' class=\"fl-focusable\">Reverso<\/a> - <b>Web<\/b><\/li><li><a href='https:\/\/www.translatelive.com\/' class=\"fl-focusable\">Overs\u00e6t Live<\/a> - <b>Live tale<\/b><\/li><li><a href='https:\/\/www.microsoft.com\/en-us\/translator\/' class=\"fl-focusable\">Microsoft Translator APP<\/a> - <b>Web, tekst, live tale, StreetSigns<\/b><\/li><\/ul><br \/><b>BEM\u00c6RK:<\/b> Der er ogs\u00e5 plug-ins og indbyggede overs\u00e6ttelsesfunktioner til forskellige browsere.",
+        "description": "This button includes a list of external resources that you can use to translate from one language into another."
     },
     "gpii_app_qss_settings_common-mouse": {
         "tooltip": "<p> Skift indstilling af Windows-mus. <\/p> <p> Fungerer i alle applikationer. <\/p>",
         "title": "Juster Mus",
         "tip": "<p>Juster Mus<\/p>",
+        "sidecarWithSettings": "<p>Vi har angivet nogle af de mest anvendte Windows-mus-indstillinger her.<\/p><p>Microsoft leverer ogs\u00e5 andre musindstillinger. F\u00f8lgende links f\u00f8rer dig direkte til de yderligere vigtige musindstillinger p\u00e5 sk\u00e6rmbilledet Windows Setting.<\/p><ul><li><a href='ms-settings:mousetouchpad'>Museknap og rullefunktioner<\/a><\/li><li><a href='ms-settings:easeofaccess-mouse'> Musetaster<\/a><\/li><li><a href='ms-settings:devices-touchpad'>Touchpad-f\u00f8lsomhed<\/a> (hvis din computer har en touchpad)<\/li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Mark\u00f8r- og mark\u00f8rst\u00f8rrelse, farve og ber\u00f8ringsfeedback<\/a><\/li><\/ul>",
+        "description": "Use this button to change some settings related to the mouse such as the pointer size.",
         "sideCarWithSettings": "<p> Vi har angivet nogle af de mest anvendte Windows-mus-indstillinger her. <\/p> <p> Microsoft leverer ogs\u00e5 andre musindstillinger. F\u00f8lgende links f\u00f8rer dig direkte til de ekstra vigtige musindstillinger p\u00e5 Windows-indstillingssk\u00e6rmene. <\/p><ul><li><a href='ms-settings:mousetouchpad'>Museknap og rullefunktioner <\/a><\/li><li><a href='ms-settings:easeofaccess-mouse'> Musetaster <\/a><\/li><li><a href='ms-settings:devices-touchpad'>Touchpad-f\u00f8lsomhed <\/a> (hvis din computer har en touchpad)<\/li><li><a href='ms-settings:easeofaccess-cursorandpointersize'>Mark\u00f8r- og mark\u00f8rst\u00f8rrelse, farve og feedback p\u00e5 <\/a><\/li><\/ul>"
     },
     "gpii_app_qss_settings_windows-swapMouseButtons": {
@@ -135,22 +159,76 @@
     },
     "gpii_app_qss_settings_url-google-drive": {
         "tooltip": "<p> \u00c5bner Google Drev i browseren. <\/p>",
-        "title": "Mit Google drev"
+        "title": "Mit Google drev",
+        "description": "A button that opens Google Drive in your web browser."
     },
     "gpii_app_qss_settings_url-one-drive": {
         "tooltip": "<p> \u00c5bner One Drive i browseren. <\/p>",
-        "title": "Mit One Drive"
+        "title": "Mit One Drive",
+        "description": "A button that opens One Drive in your web browser."
     },
     "gpii_app_qss_settings_url-dropbox": {
         "tooltip": "<p> \u00c5bner Dropbox i browseren. <\/p>",
-        "title": "Min Dropbox"
+        "title": "Min Dropbox",
+        "description": "A button that opens Dropbox in your web browser."
     },
     "gpii_app_qss_settings_snipping-tool": {
         "tooltip": "<p> Start Windows Snipping V\u00e6rkt\u00f8j. <\/p>",
-        "title": "Sk\u00e6rmsk\u00e6ring"
+        "title": "Sk\u00e6rmsk\u00e6ring",
+        "description": "This button provides an easy way to take screenshots with the Windows Snipping Tool."
     },
     "gpii_app_qss_settings_url-customize-qss": {
         "tooltip": "<p> \u00c5bn webv\u00e6rkt\u00f8jet for at tilpasse quickstrips knapper. <\/p>",
-        "title": "Tilpas Quickstrip"
+        "title": "Tilpas Quickstrip",
+        "description": "A button that takes you to the user interface to configure the Morphic QuickStrip and more."
+    },
+    "gpii_app_qss_settings_common-colorVision": {
+        "tooltip": "<p>Skift de farver, der vises p\u00e5 sk\u00e6rmen for at g\u00f8re tingene lettere at se eller skelne mellem.<\/p>",
+        "title": "Color Vision",
+        "tip": "<p>Color Vison filtre<\/p><p>Skifter farver for at hj\u00e6lpe dem med en eller anden form for farveblindhed med at skelne farver.<\/p>",
+        "footerTip": "<div class='colorWheelTip'><p>V\u00e6lg en indstilling, der g\u00f8r de ni farver nedenfor mere tydelige.<\/p><center><img height = 64 src = '.. \/ .. \/ assets \/ color-vision- wheel.png '\/><\/center><\/div>",
+        "enum": [
+            "Standard farver",
+            "R\u00f8d-Gr\u00f8n (Svag Gr\u00f8n)",
+            "R\u00f8d-Gr\u00f8n (Svag R\u00f8d)",
+            "Bl\u00e5-Gul (tritanomali)"
+        ],
+        "sidecarWithSettings": "<p> Ud over de muligheder for Windows-farvesyn, der vises i panelet til venstre, er der ogs\u00e5 flere gr\u00e5skalaindstillinger i Windows-indstillingen. <\/p> <p> Her er linket, der f\u00f8rer dig direkte til det fulde s\u00e6t af Color Vision-indstillinger i Windows-indstillinger: <\/p> <ul> <li> <a href='ms-settings:easeofaccess-colorfilter'> Color Vision Settings <\/a> <\/li> <\/ul>",
+        "description": "This button provides an easy way to enable\/disable the Microsoft Windows available color filters. These are useful to make things easier to view or distinguish."
+    },
+    "gpii_app_qss_settings_morphic-userSettings": {
+        "tooltip": "<p>Change the Morphic QuickStrip user settings<\/p>",
+        "title": "Morphic User Settings",
+        "tip": "<p>Morphic User Settings<\/p><p>Change the look and feel of the Morphic Quickstrip.<\/p>",
+        "footerTip": "<p><b>More Morphic settings<\/b><p>",
+        "sidecar": "<h2>Title to be described<\/h2><p>Text to be described<\/p><p>Note that you can provide <b>HTML <i>Markup<\/i><\/b> here. Look at <i>messageBundles\/gpii-app-qss-settings_en.json<\/i> to see some examples of the <i>sidecar<\/i> or <i>sidecarWithSettings<\/i> blocks.",
+        "description": "This buttons allow you to change some settings of Morphic."
+    },
+    "gpii_app_qss_settings_morphic-alwaysUseChrome": {
+        "title": "Always open links on Google Chrome"
+    },
+    "gpii_app_qss_settings_morphic-appBarQss": {
+        "title": "QuickStrip as application bar"
+    },
+    "gpii_app_qss_settings_morphic-closeQssOnClickOutside": {
+        "title": "Hide on click outside"
+    },
+    "gpii_app_qss_settings_morphic-disableRestartWarning": {
+        "title": "Do not notify me when an application needs to restart"
+    },
+    "gpii_app_qss_settings_morphic-tooltipDisplayDelay": {
+        "title": "Tooltip show delay"
+    },
+    "gpii_app_qss_settings_morphic-separator": {
+        "description": "Invisible button separator"
+    },
+    "gpii_app_qss_settings_morphic-separator-visible": {
+        "description": "Visible button separator"
+    },
+    "gpii_app_qss_settings_morphic-grid": {
+        "description": "Invisible button grid"
+    },
+    "gpii_app_qss_settings_morphic-grid-visible": {
+        "description": "Visible button grid"
     }
 }
