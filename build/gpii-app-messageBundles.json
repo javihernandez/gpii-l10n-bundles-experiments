@@ -517,6 +517,8 @@
         "gpii_userErrors_SaveToCloudFail-details": "Tjek din internetforbindelse og din adgangskode til din morfiske konto, og prøv igen."
     },
     "en-US": {
+        "gpii_app_iodStartedWorking": "Morphic is installing and setting up some 3rd party software for you. Meanwhile, you can close this dialog and keep using your computer normally. You will receive a notification when the installation process is finished.",
+        "gpii_app_iodStoppedWorking": "Morphic has finished installing and setting up the software for you. You're all set up.",
         "gpii_app_menu_about": "About...",
         "gpii_app_menu_openQss": "Open Morphic",
         "gpii_app_menu_keyedIn": "User Signed In",
@@ -712,7 +714,7 @@
         "gpii_app_qss_settings_excelSimplification": {
             "tooltip": "<p>Microsoft Excel simplification.</p><p>Provides simpler menus for Microsoft Excel</p>",
             "title": "MS Excel Simplify",
-            "tip": "<p>Microsoft Excel simplification</p><p>Morphic can add simpler ribbons (the menu bars with icons at the top of Word) to make it easier for people who don't use all the options.</p><ul><li>Choose one or both to add them to Word</li></ul>",
+            "tip": "<p>Microsoft Excel simplification</p><p>Morphic can add simpler ribbons (the menu bars with icons at the top of Excel) to make it easier for people who don't use all the options.</p><ul><li>Choose one or both to add them to Excel</li></ul>",
             "enum": [
                 "Basic (Morphic)",
                 "Essentials (Morphic)"
@@ -816,7 +818,7 @@
             "title": "Morphic User Settings",
             "tip": "<p>Morphic User Settings</p><p>Change the look and feel of the Morphic Quickstrip.</p>",
             "footerTip": "<p><b>More Morphic settings</b><p>",
-            "sidecar": "<h2>Title to be described</h2><p>Text to be described</p><p>Note that you can provide <b>HTML <i>Markup</i></b> here. Look at <i>messageBundles/gpii-app-qss-settings_en.json</i> to see some examples of the <i>sidecar</i> or <i>sidecarWithSettings</i> blocks.",
+            "sidecar": "<h2>Morphic User Settings</h2><p>You can change the behavior of Morphic with the settings on the left. In addition to that, you can use the Morphic Settings Editor to arrange the buttons shown in the QuickStrip.</p><p>Also, you can make your own buttons (MYOB) and add them to the Morphic QuickStrip or the More Panel.",
             "description": "This buttons allow you to change some settings of Morphic."
         },
         "gpii_app_qss_settings_morphic-alwaysUseChrome": {
