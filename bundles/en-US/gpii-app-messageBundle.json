@@ -1,4 +1,7 @@
 {
+    "gpii_app_iodStartedWorking": "Morphic is installing and setting up some 3rd party software for you. Meanwhile, you can close this dialog and keep using your computer normally. You will receive a notification when the installation process is finished.",
+    "gpii_app_iodStoppedWorking": "Morphic has finished installing and setting up the software for you. You're all set up.",
+
     "gpii_app_menu_about": "About...",
     "gpii_app_menu_openQss": "Open Morphic",
     "gpii_app_menu_keyedIn": "User Signed In",
