@@ -215,7 +215,7 @@
         "title": "Morphic User Settings",
         "tip": "<p>Morphic User Settings</p><p>Change the look and feel of the Morphic Quickstrip.</p>",
         "footerTip": "<p><b>More Morphic settings</b><p>",
-        "sidecar": "<h2>Morphic User Settings</h2><p>You can change the behavior of Morphic with the settings on the left. In addition to that, you can use the Morphic Settings Editor to arrange the buttons shown in the QuickStrip.</p><p>Also, you can make your own buttons (MYOB) and add them to the Morphic QuickStrip or the More Panel.",
+        "sidecar": "<h2>Morphic User Settings</h2><p>You can change the behavior of Morphic with the settings on the left. In addition to that, when keyed-in, you can use the Morphic Settings Editor to arrange the buttons shown in the QuickStrip.</p><p>Also, you can make your own buttons (MYOB) and add them to the Morphic QuickStrip or the More Panel.",
         "description": "This buttons allow you to change some settings of Morphic."
     },
     "gpii_app_qss_settings_morphic-alwaysUseChrome": {
